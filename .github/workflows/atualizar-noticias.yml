@@ -1,12 +1,28 @@
-name: Atualizar notícias STAO
+name: Atualizar notícias e agenda STAO
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - assets/**
+      - update_agenda.py
+      - update_news.py
+      - test_update_news.py
+      - agenda_estadual.json
+      - .github/workflows/atualizar-noticias.yml
   workflow_dispatch:
   schedule:
     - cron: "17 */2 * * *"
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: stao-atualizacao
+  cancel-in-progress: false
 
 jobs:
   atualizar:
@@ -23,12 +39,45 @@ jobs:
       - name: Atualizar notícias
         run: python update_news.py
 
-      - name: Salvar notícias
+      - name: Testar coleta da agenda
+        run: python -m unittest test_update_agenda.py test_update_news.py
+
+      - name: Atualizar agenda fiscal
+        id: agenda
+        continue-on-error: true
+        run: python update_agenda.py
+
+      - name: Salvar notícias e agenda
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json
+          git add news.json agenda.json
           if ! git diff --cached --quiet; then
-            git commit -m "Atualização automática das notícias STAO"
+            git commit -m "Atualização automática de notícias e agenda STAO"
             git push
           fi
+
+      - name: Preparar arquivos públicos
+        run: |
+          mkdir -p public
+          cp index.html news.json agenda.json public/
+          cp -R assets public/assets
+
+      - name: Preparar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Enviar painel
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  publicar:
+    needs: atualizar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar painel no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
