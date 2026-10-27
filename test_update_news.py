@@ -9,6 +9,13 @@ class NewsTests(unittest.TestCase):
         self.assertEqual(items[0]['summary'],'Resumo')
         self.assertEqual(items[0]['date'],'27/10/2026 09:00')
 
+    def test_investing_iso_date_without_description(self):
+        xml=b'<rss><channel><item><title>Mercado</title><link>https://br.investing.com/news/1</link><pubDate>2026-10-27 13:47:19</pubDate></item></channel></rss>'
+        items=parse_feed('Investing.com Brasil',xml)
+        self.assertEqual(len(items),1)
+        self.assertEqual(items[0]['summary'],'')
+        self.assertIn('horário da fonte',items[0]['date'])
+
     def test_balance_dedupe_and_age(self):
         now=2_000_000_000
         items=[{'source':source,'title':f'{source}-{i}','timestamp':now-i} for source,_ in FEEDS for i in range(40)]
@@ -17,6 +24,6 @@ class NewsTests(unittest.TestCase):
         result=select_items(items,now)
         self.assertEqual(len(result),30)
         self.assertEqual(len({x['title'] for x in result}),30)
-        for source,_ in FEEDS:self.assertEqual(sum(x['source']==source for x in result),6)
+        for source,_ in FEEDS:self.assertEqual(sum(x['source']==source for x in result),30//len(FEEDS))
 
 if __name__=='__main__':unittest.main()

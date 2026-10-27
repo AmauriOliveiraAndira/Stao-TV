@@ -16,6 +16,7 @@ FEEDS = [
     ('Portal Contábeis', 'https://www.contabeis.com.br/rss/conteudo/'),
     ('Conselho Federal de Contabilidade', 'https://cfc.org.br/feed/'),
     ('Brasil de Fato', 'https://www.brasildefato.com.br/feed/'),
+    ('Investing.com Brasil', 'https://br.investing.com/rss/news.rss'),
 ]
 OUT = Path(__file__).parent / 'news.json'
 MAX_AGE = 14 * 86400
@@ -32,7 +33,12 @@ def parse_feed(source, data):
         get = lambda tag: (item.findtext(tag) or '').strip()
         title, link = plain(get('title')), get('link')
         try:
-            published = email.utils.parsedate_to_datetime(get('pubDate'))
+            raw_date = get('pubDate')
+            try:
+                published = email.utils.parsedate_to_datetime(raw_date)
+            except (ValueError, TypeError):
+                published = dt.datetime.fromisoformat(raw_date.replace('Z', '+00:00'))
+            naive_date = published.tzinfo is None
             if published.tzinfo is None:
                 published = published.replace(tzinfo=dt.timezone.utc)
             timestamp = published.timestamp()
@@ -43,7 +49,7 @@ def parse_feed(source, data):
             if len(summary) > 280:
                 summary = summary[:277].rsplit(' ', 1)[0] + '…'
             output.append({'source': source, 'title': title, 'summary': summary,
-                           'date': published.astimezone(ZoneInfo('America/Sao_Paulo')).strftime('%d/%m/%Y %H:%M'),
+                           'date': (published.strftime('%d/%m/%Y %H:%M') + ' (horário da fonte)' if naive_date else published.astimezone(ZoneInfo('America/Sao_Paulo')).strftime('%d/%m/%Y %H:%M')),
                            'link': link, 'timestamp': timestamp})
     return output
 

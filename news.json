@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T14:05:18.423883+00:00",
+  "updated_at": "2026-10-27T14:13:38.293305+00:00",
   "sources": [
     {
       "source": "Agência Brasil • Economia",
@@ -25,6 +25,11 @@
       "source": "Brasil de Fato",
       "ok": true,
       "count": 99
+    },
+    {
+      "source": "Investing.com Brasil",
+      "ok": true,
+      "count": 10
     }
   ],
   "items": [
@@ -38,11 +43,11 @@
     },
     {
       "source": "Agência Brasil • Últimas",
-      "title": "Petrobras inova na produção sustentável de combustível de aviação",
-      "summary": "Um novo marco na produção de combustível sustentável de aviação (SAF) foi obtido pela Refinaria Duque de Caxias (Reduc) na primeira quinzena de outubro. Com a recertificação internacional do produto, a Petrobras obteve avanços que reduziram significativamente a intensidade de…",
-      "date": "27/10/2026 07:32",
-      "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/petrobras-inova-na-producao-sustentavel-de-combustivel-de-aviacao",
-      "timestamp": 1793097120.0
+      "title": "Chuvas atingem importantes áreas agrícolas nesta terça, prevê Inmet",
+      "summary": "A presença de uma frente fria no litoral sul da Bahia favorece um canal de umidade sobre o país nesta terça-feira (27), propiciando a ocorrência de chuvas e trovoadas em importantes áreas agrícolas. Segundo o Instituto Nacional de Meteorologia (Inmet), as chuvas mais intensas…",
+      "date": "27/10/2026 10:21",
+      "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/chuvas-atingem-importantes-areas-agricolas-nesta-terca-preve-inmet",
+      "timestamp": 1793107260.0
     },
     {
       "source": "Portal Contábeis",
@@ -69,6 +74,14 @@
       "timestamp": 1793101911.0
     },
     {
+      "source": "Investing.com Brasil",
+      "title": "American Tower supera receita no 3º tri de 2026, mas ações recuam",
+      "summary": "",
+      "date": "27/10/2026 13:47 (horário da fonte)",
+      "link": "https://br.investing.com/news/transcripts/american-tower-supera-receita-no-3o-tri-de-2026-mas-acoes-recuam-93CH-2104263",
+      "timestamp": 1793108839.0
+    },
+    {
       "source": "Agência Brasil • Economia",
       "title": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
       "summary": "O mercado financeiro brasileiro teve um dia de forte turbulência nesta segunda-feira (26), após a reeleição do presidente Luiz Inácio Lula da Silva no segundo turno das eleições presidenciais. O dólar fechou em alta de 8,21%, a R$ 5,403. O Ibovespa, principal índice da Bolsa…",
@@ -78,11 +91,11 @@
     },
     {
       "source": "Agência Brasil • Últimas",
-      "title": "Um ano depois, mortes da Operação Contenção ainda são investigadas",
-      "summary": "Ainda era madrugada, em 28 de outubro de 2025, quando mais de 2,5 mil policiais civis e militares começaram a se preparar para uma operação nos complexos de favelas do Alemão e da Penha. Entre as milhares de incursões em comunidades realizadas no Rio de Janeiro nos últimos 40…",
-      "date": "27/10/2026 07:05",
-      "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/um-ano-depois-mortes-da-operacao-contencao-ainda-sao-investigadas",
-      "timestamp": 1793095500.0
+      "title": "Petrobras inova na produção sustentável de combustível de aviação",
+      "summary": "Um novo marco na produção de combustível sustentável de aviação (SAF) foi obtido pela Refinaria Duque de Caxias (Reduc) na primeira quinzena de outubro. Com a recertificação internacional do produto, a Petrobras obteve avanços que reduziram significativamente a intensidade de…",
+      "date": "27/10/2026 07:32",
+      "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/petrobras-inova-na-producao-sustentavel-de-combustivel-de-aviacao",
+      "timestamp": 1793097120.0
     },
     {
       "source": "Portal Contábeis",
@@ -109,6 +122,14 @@
       "timestamp": 1793101612.0
     },
     {
+      "source": "Investing.com Brasil",
+      "title": "Ação da Amneal Pharmaceuticals atinge máxima de 52 semanas em US$ 21,18",
+      "summary": "",
+      "date": "27/10/2026 13:47 (horário da fonte)",
+      "link": "https://br.investing.com/news/company-news/acao-da-amneal-pharmaceuticals-atinge-maxima-de-52-semanas-em-us-2118-93CH-2104262",
+      "timestamp": 1793108827.0
+    },
+    {
       "source": "Agência Brasil • Economia",
       "title": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta",
       "summary": "Os micro e pequenos empresários precisam ficar atentos. Acaba nesta sexta-feira (30) o prazo para a escolha do regime tributário que entrará em vigor em janeiro, com a reforma tributária. Os negócios que desejarem recolher o Imposto sobre Bens e Serviços (IBS) e a…",
@@ -118,11 +139,11 @@
     },
     {
       "source": "Agência Brasil • Últimas",
-      "title": "Gol nos acréscimos assegura Flamengo na liderança do Brasileirão",
-      "summary": "A 32ª rodada do Campeonato Brasileiro chegou ao fim da forma que começou. A dramática vitória por 3 a 2 sobre o Atlético-MG na noite de segunda-feira (26), no Maracanã, manteve o Rubro-Negro na liderança da competição. Os cariocas foram a campo sob pressão. Além da…",
-      "date": "27/10/2026 06:45",
-      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/gol-nos-acrescimos-assegura-flamengo-na-lideranca-do-brasileirao",
-      "timestamp": 1793094300.0
+      "title": "Um ano depois, mortes da Operação Contenção ainda são investigadas",
+      "summary": "Ainda era madrugada, em 28 de outubro de 2025, quando mais de 2,5 mil policiais civis e militares começaram a se preparar para uma operação nos complexos de favelas do Alemão e da Penha. Entre as milhares de incursões em comunidades realizadas no Rio de Janeiro nos últimos 40…",
+      "date": "27/10/2026 07:05",
+      "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/um-ano-depois-mortes-da-operacao-contencao-ainda-sao-investigadas",
+      "timestamp": 1793095500.0
     },
     {
       "source": "Portal Contábeis",
@@ -149,6 +170,14 @@
       "timestamp": 1793101219.0
     },
     {
+      "source": "Investing.com Brasil",
+      "title": "Presidente da Ategrity Specialty Insurance compra US$ 24.290 em ações",
+      "summary": "",
+      "date": "27/10/2026 13:46 (horário da fonte)",
+      "link": "https://br.investing.com/news/insider-trading-news/presidente-da-ategrity-specialty-insurance-compra-us-24290-em-acoes-93CH-2104261",
+      "timestamp": 1793108818.0
+    },
+    {
       "source": "Agência Brasil • Economia",
       "title": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
       "summary": "As propagandas de empréstimos obedecerão a novas regras a partir do próximo ano, decidiu nesta sexta-feira (23) o Banco Central (BC). O órgão aprovou três resoluções para reforçar a proteção dos consumidores na contratação de crédito. As mudanças também criam um painel para…",
@@ -158,11 +187,11 @@
     },
     {
       "source": "Agência Brasil • Últimas",
-      "title": "PL, partido de Flávio, reconhece vitória de Lula nas eleições",
-      "summary": "O presidente do Partido Liberal (PL), Valdemar Costa Neto, publicou nota oficial, nesta segunda-feira (26), em que reconhece a vitória do presidente Luiz Inácio Lula da Silva nas eleições deste ano. No entanto, ele cobrou esclarecimentos sobre o que chamou de medidas…",
-      "date": "26/10/2026 21:38",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/partido-de-flavio-pl-reconhece-vitoria-de-lula-nas-eleicoes",
-      "timestamp": 1793061480.0
+      "title": "Gol nos acréscimos assegura Flamengo na liderança do Brasileirão",
+      "summary": "A 32ª rodada do Campeonato Brasileiro chegou ao fim da forma que começou. A dramática vitória por 3 a 2 sobre o Atlético-MG na noite de segunda-feira (26), no Maracanã, manteve o Rubro-Negro na liderança da competição. Os cariocas foram a campo sob pressão. Além da…",
+      "date": "27/10/2026 06:45",
+      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/gol-nos-acrescimos-assegura-flamengo-na-lideranca-do-brasileirao",
+      "timestamp": 1793094300.0
     },
     {
       "source": "Portal Contábeis",
@@ -189,6 +218,14 @@
       "timestamp": 1793091600.0
     },
     {
+      "source": "Investing.com Brasil",
+      "title": "Coca-Cola supera previsões do 3º tri de 2026 com alta nas vendas",
+      "summary": "",
+      "date": "27/10/2026 13:45 (horário da fonte)",
+      "link": "https://br.investing.com/news/transcripts/cocacola-supera-previsoes-do-3o-tri-de-2026-com-alta-nas-vendas-93CH-2104260",
+      "timestamp": 1793108732.0
+    },
+    {
       "source": "Agência Brasil • Economia",
       "title": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
       "summary": "O dólar fechou abaixo de R$ 5 nesta sexta-feira (23), e a bolsa brasileira subiu no último dia útil antes do segundo turno das eleições presidenciais. O petróleo avançou mais de 3% , atingindo o maior patamar desde abril, com o agravamento das tensões no Oriente Médio. No…",
@@ -198,11 +235,11 @@
     },
     {
       "source": "Agência Brasil • Últimas",
-      "title": "Harry Kane e Alexia Putellas vencem prêmio Bola de Ouro de 2026",
-      "summary": "O atacante Harry Kane e a meia Alexia Putellas são os vencedores da Bola de Ouro, tradicional premiação da revista France Football que condecora os melhores jogadores da temporada no futebol mundial. O anúncio dos ganhadores aconteceu nesta segunda-feira (26) no London…",
-      "date": "26/10/2026 21:12",
-      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/harry-kane-e-alexia-putellas-vencem-premio-bola-de-ouro-de-2026",
-      "timestamp": 1793059920.0
+      "title": "PL, partido de Flávio, reconhece vitória de Lula nas eleições",
+      "summary": "O presidente do Partido Liberal (PL), Valdemar Costa Neto, publicou nota oficial, nesta segunda-feira (26), em que reconhece a vitória do presidente Luiz Inácio Lula da Silva nas eleições deste ano. No entanto, ele cobrou esclarecimentos sobre o que chamou de medidas…",
+      "date": "26/10/2026 21:38",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/partido-de-flavio-pl-reconhece-vitoria-de-lula-nas-eleicoes",
+      "timestamp": 1793061480.0
     },
     {
       "source": "Portal Contábeis",
@@ -229,44 +266,12 @@
       "timestamp": 1793073089.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Receita abre consulta a lote residual do Imposto de Renda",
-      "summary": "A Receita Federal abriu nesta sexta-feira (23) a consulta ao lote residual de restituição do Imposto de Renda Pessoa Física (IRPF). Ao todo, 184.442 contribuintes serão contemplados com R$ 531,6 milhões. O pagamento está previsto para 30 de outubro. Segundo a Receita, o lote…",
-      "date": "23/10/2026 11:18",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-abre-consulta-lote-residual-do-imposto-de-renda",
-      "timestamp": 1792765080.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "CNBB parabeniza Lula e pede atenção aos mais pobres",
-      "summary": "A Conferência Nacional dos Bispos do Brasil (CNBB) parabenizou o presidente Luiz Inácio Lula da Silva e ao vice-presidente Geraldo Alckmin pela reeleição, no 2º turno das eleições e pediu atenção prioritária para os pobres e vulneráveis. \"Acreditamos que a dignidade da pessoa…",
-      "date": "26/10/2026 20:52",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/cnbb-parabeniza-lula-e-pede-atencao-aos-mais-pobres",
-      "timestamp": 1793058720.0
-    },
-    {
-      "source": "Portal Contábeis",
-      "title": "TCU pauta cálculo da alíquota da CBS para quarta-feira (28)",
-      "summary": "TCU prevê analisar cálculo da alíquota de referência da CBS nesta quarta-feira (28). Etapa antecede a definição do percentual pelo Senado. Leia mais em https://www.contabeis.com.br/noticias/80376/tcu-pauta-calculo-da-aliquota-da-cbs-para-quarta-feira-28/",
-      "date": "27/10/2026 09:30",
-      "link": "https://www.contabeis.com.br/noticias/80376/tcu-pauta-calculo-da-aliquota-da-cbs-para-quarta-feira-28/",
-      "timestamp": 1793104201.0
-    },
-    {
-      "source": "Conselho Federal de Contabilidade",
-      "title": "Normas sobre receitas e despesas de transferência recebem contribuições até 12 de novembro",
-      "summary": "As Normas Brasileiras de Contabilidade Técnica Aplicadas ao Setor Público (NBC TSP) 39 – Receita e 40 – Despesa de Transferência estão disponíveis em audiência pública. Os profissionais da contabilidade e demais interessados podem contribuir com sugestões e comentários às…",
-      "date": "23/10/2026 09:23",
-      "link": "https://cfc.org.br/noticias/cfc-disponibiliza-em-audiencia-publica-duas-normas-do-setor-publico/",
-      "timestamp": 1792758235.0
-    },
-    {
-      "source": "Brasil de Fato",
-      "title": "Diferença entre Flávio Bolsonaro e Lula ficou na margem de erro, explica cientista política",
-      "summary": "Diferença entre Flávio Bolsonaro e Lula ficou na margem de erro, explica cientista política Fonte",
-      "date": "26/10/2026 22:40",
-      "link": "https://www.brasildefato.com.br/2026/10/26/diferenca-entre-flavio-bolsonaro-e-lula-ficou-na-margem-de-erro-explica-cientista-politica/",
-      "timestamp": 1793065247.0
+      "source": "Investing.com Brasil",
+      "title": "MainStreet Bancshares anuncia dividendo de US$ 0,10 para acionistas comuns",
+      "summary": "",
+      "date": "27/10/2026 13:43 (horário da fonte)",
+      "link": "https://br.investing.com/news/sec-filings/mainstreet-bancshares-anuncia-dividendo-de-us-010-para-acionistas-comuns-93CH-2104257",
+      "timestamp": 1793108612.0
     }
   ]
 }
