@@ -1,149 +1,272 @@
 {
-  "updated_at": "2026-10-27T12:18:35.891625+00:00",
+  "updated_at": "2026-10-27T12:59:50.422164+00:00",
+  "sources": [
+    {
+      "source": "Agência Brasil • Economia",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "source": "Agência Brasil • Últimas",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "source": "Portal Contábeis",
+      "ok": true,
+      "count": 30
+    },
+    {
+      "source": "Conselho Federal de Contabilidade",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "source": "Brasil de Fato",
+      "ok": true,
+      "count": 99
+    }
+  ],
   "items": [
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Petrobras inova na produção sustentável de combustível de aviação",
-      "summary": "Um novo marco na produção de combustível sustentável de aviação (SAF) foi obtido pela Refinaria Duque de Caxias (Reduc) na primeira quinzena de outubro. Com a recertificação internacional do produto, a Petrobras obteve avanços que reduziram significativamente a intensidade de carbono SAF, reforçando os mais elevados padrões globais de sustentabilidade, rastreabilidade e governa",
-      "date": "27/10/2026 07:32",
-      "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/petrobras-inova-na-producao-sustentavel-de-combustivel-de-aviacao",
-      "timestamp": 1793097120.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Um ano depois, mortes da Operação Contenção ainda são investigadas",
-      "summary": "Ainda era madrugada, em 28 de outubro de 2025, quando mais de 2,5 mil policiais civis e militares começaram a se preparar para uma operação nos complexos de favelas do Alemão e da Penha. Entre as milhares de incursões em comunidades realizadas no Rio de Janeiro nos últimos 40 anos, aquela seria a mais letal . O que se viu ao longo do dia foram horas de confrontos armados, ônibu",
-      "date": "27/10/2026 07:05",
-      "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/um-ano-depois-mortes-da-operacao-contencao-ainda-sao-investigadas",
-      "timestamp": 1793095500.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Gol nos acréscimos assegura Flamengo na liderança do Brasileirão",
-      "summary": "A 32ª rodada do Campeonato Brasileiro chegou ao fim da forma que começou. A dramática vitória por 3 a 2 sobre o Atlético-MG na noite de segunda-feira (26), no Maracanã, manteve o Rubro-Negro na liderança da competição. Os cariocas foram a campo sob pressão. Além da necessidade de vencer, já que o vice-líder Palmeiras superou o Red Bull Bragantino no último sábado (24), por 2 a ",
-      "date": "27/10/2026 06:45",
-      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/gol-nos-acrescimos-assegura-flamengo-na-lideranca-do-brasileirao",
-      "timestamp": 1793094300.0
-    },
     {
       "source": "Agência Brasil • Economia",
       "title": "Mega-Sena não tem ganhador; prêmio acumula para R$ 305 milhões",
-      "summary": "Ninguém acertou acertou as seis dezenas do Concurso 3.075 da Mega-Sena, sorteado nesta segunda-feira (26). O prêmio acumulou novamente e está estimado em R$ 305 milhões para a nova rodada. Os números sorteados são: 07 - 10 - 14 - 27 - 36 - 55 A quina teve 182 apostas ganhadoras. Cada uma receberá R$ 19.433,12. A quadra saiu para 11.018 apostas, no valor de R$ 458,57 cada. Apost",
+      "summary": "Ninguém acertou acertou as seis dezenas do Concurso 3.075 da Mega-Sena, sorteado nesta segunda-feira (26). O prêmio acumulou novamente e está estimado em R$ 305 milhões para a nova rodada. Os números sorteados são: 07 - 10 - 14 - 27 - 36 - 55 A quina teve 182 apostas…",
       "date": "26/10/2026 22:08",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-premio-acumula-para-r-305-milhoes",
       "timestamp": 1793063280.0
     },
     {
       "source": "Agência Brasil • Últimas",
-      "title": "PL, partido de Flávio, reconhece vitória de Lula nas eleições",
-      "summary": "O presidente do Partido Liberal (PL), Valdemar Costa Neto, publicou nota oficial, nesta segunda-feira (26), em que reconhece a vitória do presidente Luiz Inácio Lula da Silva nas eleições deste ano. No entanto, ele cobrou esclarecimentos sobre o que chamou de medidas “eleitoreiras”, com “ampliação de gastos públicos”. ““Reconhecemos o resultado presidencial, proclamado pelo Tri",
-      "date": "26/10/2026 21:38",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/partido-de-flavio-pl-reconhece-vitoria-de-lula-nas-eleicoes",
-      "timestamp": 1793061480.0
+      "title": "Petrobras inova na produção sustentável de combustível de aviação",
+      "summary": "Um novo marco na produção de combustível sustentável de aviação (SAF) foi obtido pela Refinaria Duque de Caxias (Reduc) na primeira quinzena de outubro. Com a recertificação internacional do produto, a Petrobras obteve avanços que reduziram significativamente a intensidade de…",
+      "date": "27/10/2026 07:32",
+      "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/petrobras-inova-na-producao-sustentavel-de-combustivel-de-aviacao",
+      "timestamp": 1793097120.0
     },
     {
-      "source": "Agência Brasil • Últimas",
-      "title": "Harry Kane e Alexia Putellas vencem prêmio Bola de Ouro de 2026",
-      "summary": "O atacante Harry Kane e a meia Alexia Putellas são os vencedores da Bola de Ouro, tradicional premiação da revista France Football que condecora os melhores jogadores da temporada no futebol mundial. O anúncio dos ganhadores aconteceu nesta segunda-feira (26) no London Palladium, teatro centenário de Londres. Nascido na capital inglesa, Kane recebeu das mãos do ex-jogador brasi",
-      "date": "26/10/2026 21:12",
-      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/harry-kane-e-alexia-putellas-vencem-premio-bola-de-ouro-de-2026",
-      "timestamp": 1793059920.0
+      "source": "Portal Contábeis",
+      "title": "TCU pauta cálculo da alíquota da CBS para quarta-feira (28)",
+      "summary": "TCU prevê analisar cálculo da alíquota de referência da CBS nesta quarta-feira (28). Etapa antecede a definição do percentual pelo Senado. Leia mais em https://www.contabeis.com.br/noticias/80376/tcu-pauta-calculo-da-aliquota-da-cbs-para-quarta-feira-28/",
+      "date": "27/10/2026 09:30",
+      "link": "https://www.contabeis.com.br/noticias/80376/tcu-pauta-calculo-da-aliquota-da-cbs-para-quarta-feira-28/",
+      "timestamp": 1793104201.0
     },
     {
-      "source": "Agência Brasil • Últimas",
-      "title": "CNBB parabeniza Lula e pede atenção aos mais pobres",
-      "summary": "A Conferência Nacional dos Bispos do Brasil (CNBB) parabenizou o presidente Luiz Inácio Lula da Silva e ao vice-presidente Geraldo Alckmin pela reeleição, no 2º turno das eleições e pediu atenção prioritária para os pobres e vulneráveis. \"Acreditamos que a dignidade da pessoa humana, a destinação universal dos bens, a solidariedade, a subsidiariedade e o bem comum devem orienta",
-      "date": "26/10/2026 20:52",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/cnbb-parabeniza-lula-e-pede-atencao-aos-mais-pobres",
-      "timestamp": 1793058720.0
+      "source": "Conselho Federal de Contabilidade",
+      "title": "ISSB abre consulta pública sobre divulgação de informações relacionadas à natureza",
+      "summary": "O International Sustainability Standards Board (ISSB) quer saber como as propostas da instituição sobre divulgação de informações relacionadas à natureza estão sendo interpretadas. Por isso, abriu prazo até 19 de fevereiro de 2027 para receber colaborações a respeito do tema.…",
+      "date": "26/10/2026 14:21",
+      "link": "https://cfc.org.br/noticias/issb-abre-consulta-publica-sobre-divulgacao-de-informacoes-relacionadas-a-natureza/",
+      "timestamp": 1793035273.0
     },
     {
-      "source": "Agência Brasil • Últimas",
-      "title": "Trump questiona eleição brasileira e Alckmin rebate: “equivocado”",
-      "summary": "O presidente dos Estados Unidos, Donald Trump, questionou o processo eleitoral brasileiro, nesta segunda-feira (26). Em conversa com jornalistas, o presidente estadunidense questionou a prorrogação do horário da votação, ecoando o posicionamento da campanha do candidato derrotado no segundo turno das eleições, Flávio Bolsonaro. Notícias relacionadas: Líderes estrangeiros reconh",
-      "date": "26/10/2026 20:18",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/trump-questiona-eleicao-brasileira-e-alckmin-rebate-equivocado",
-      "timestamp": 1793056680.0
+      "source": "Brasil de Fato",
+      "title": "Xi Jinping parabeniza Lula pela reeleição e propõe levar parceria Brasil-China a novos patamares",
+      "summary": "O presidente chinês Xi Jinping enviou, nesta terça-feira (27), uma mensagem parabenizando o presidente Luiz Inácio Lula da Silva pela reeleição. O vice-presidente chinês Han Zheng também enviou uma mensagem ao vice-presidente Geraldo Alckmin. Na mensagem, Xi destacou que Lula…",
+      "date": "27/10/2026 08:51",
+      "link": "https://www.brasildefato.com.br/2026/10/27/xi-jinping-parabeniza-lula-pela-reeleicao-e-propoe-levar-parceria-brasil-china-a-novos-patamares/",
+      "timestamp": 1793101911.0
     },
     {
       "source": "Agência Brasil • Economia",
       "title": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
-      "summary": "O mercado financeiro brasileiro teve um dia de forte turbulência nesta segunda-feira (26), após a reeleição do presidente Luiz Inácio Lula da Silva no segundo turno das eleições presidenciais. O dólar fechou em alta de 8,21%, a R$ 5,403. O Ibovespa, principal índice da Bolsa de Valores brasileira, recuou 13,88% e atingiu os 176.608,23 pontos. Durante a manhã, a bolsa acionou o ",
+      "summary": "O mercado financeiro brasileiro teve um dia de forte turbulência nesta segunda-feira (26), após a reeleição do presidente Luiz Inácio Lula da Silva no segundo turno das eleições presidenciais. O dólar fechou em alta de 8,21%, a R$ 5,403. O Ibovespa, principal índice da Bolsa…",
       "date": "26/10/2026 19:07",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula",
       "timestamp": 1793052420.0
     },
     {
       "source": "Agência Brasil • Últimas",
-      "title": "Lucas Pinheiro abre temporada com ouro em slalom gigante na Áustria",
-      "summary": "Primeiro campeão brasileiro em Olimpíadas de Inverno, o esquiador Lucas Pinheiro Braathen faturou o ouro na prova de slalom gigante masculino que abriu no último domingo (25) a temporada do circuito internacional de esqui alpino em Sölden (Áustria). Nascido na Noruega, filho de mãe brasileira, Lucas totalizou 1min44s72 nas duas descidas. O brasileiro foi 48 centésimos mais velo",
-      "date": "26/10/2026 19:07",
-      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/lucas-pinheiro-abre-temporada-com-ouro-em-slalom-gigante-na-austria",
-      "timestamp": 1793052420.0
+      "title": "Um ano depois, mortes da Operação Contenção ainda são investigadas",
+      "summary": "Ainda era madrugada, em 28 de outubro de 2025, quando mais de 2,5 mil policiais civis e militares começaram a se preparar para uma operação nos complexos de favelas do Alemão e da Penha. Entre as milhares de incursões em comunidades realizadas no Rio de Janeiro nos últimos 40…",
+      "date": "27/10/2026 07:05",
+      "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/um-ano-depois-mortes-da-operacao-contencao-ainda-sao-investigadas",
+      "timestamp": 1793095500.0
+    },
+    {
+      "source": "Portal Contábeis",
+      "title": "Receita esclarece créditos de PIS/Cofins sobre ICMS e Difal",
+      "summary": "Solução de Consulta Cosit 205/2026 esclarece o tratamento do ICMS e do Difal nos créditos de PIS / Cofins , com distinção entre períodos. Leia mais em https://www.contabeis.com.br/noticias/80377/receita-esclarece-creditos-de-pis-cofins-sobre-icms-e-difal/",
+      "date": "27/10/2026 09:15",
+      "link": "https://www.contabeis.com.br/noticias/80377/receita-esclarece-creditos-de-pis-cofins-sobre-icms-e-difal/",
+      "timestamp": 1793103302.0
+    },
+    {
+      "source": "Conselho Federal de Contabilidade",
+      "title": "Visita ao CFC aproxima estudantes de Ciências Contábeis da profissão",
+      "summary": "Estudantes do Uni-FACEF conheceram a sede do CFC, em Brasília, e conversaram sobre o mercado de trabalho, a formação profissional e o Exame de Suficiência. A descoberta de novos caminhos profissionais e o entusiasmo de quem começa a construir uma carreira marcaram a visita de…",
+      "date": "26/10/2026 13:12",
+      "link": "https://cfc.org.br/noticias/visita-ao-cfc-aproxima-estudantes-de-ciencias-contabeis-da-profissao/",
+      "timestamp": 1793031145.0
+    },
+    {
+      "source": "Brasil de Fato",
+      "title": "Alckmin rebate Trump e defende segurança das urnas após críticas à eleição brasileira",
+      "summary": "O vice-presidente reeleito, Geraldo Alckmin (PSB), classificou como “totalmente equivocada” a declaração do presidente dos Estados Unidos, Donald Trump, que questionou a legitimidade das eleições brasileiras. A manifestação ocorreu na segunda-feira (26), após o republicano…",
+      "date": "27/10/2026 08:46",
+      "link": "https://www.brasildefato.com.br/2026/10/27/alckmin-rebate-trump-e-defende-seguranca-das-urnas-apos-criticas-a-eleicao-brasileira/",
+      "timestamp": 1793101612.0
     },
     {
       "source": "Agência Brasil • Economia",
       "title": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta",
-      "summary": "Os micro e pequenos empresários precisam ficar atentos. Acaba nesta sexta-feira (30) o prazo para a escolha do regime tributário que entrará em vigor em janeiro, com a reforma tributária. Os negócios que desejarem recolher o Imposto sobre Bens e Serviços (IBS) e a Contribuição sobre Bens e Serviços (CBS) pelo regime regular terão até sexta-feira para registrar a opção. Quem não",
+      "summary": "Os micro e pequenos empresários precisam ficar atentos. Acaba nesta sexta-feira (30) o prazo para a escolha do regime tributário que entrará em vigor em janeiro, com a reforma tributária. Os negócios que desejarem recolher o Imposto sobre Bens e Serviços (IBS) e a…",
       "date": "26/10/2026 15:22",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-empresas-escolherem-modelo-do-simples-acaba-nesta-sexta",
       "timestamp": 1793038920.0
     },
     {
+      "source": "Agência Brasil • Últimas",
+      "title": "Gol nos acréscimos assegura Flamengo na liderança do Brasileirão",
+      "summary": "A 32ª rodada do Campeonato Brasileiro chegou ao fim da forma que começou. A dramática vitória por 3 a 2 sobre o Atlético-MG na noite de segunda-feira (26), no Maracanã, manteve o Rubro-Negro na liderança da competição. Os cariocas foram a campo sob pressão. Além da…",
+      "date": "27/10/2026 06:45",
+      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/gol-nos-acrescimos-assegura-flamengo-na-lideranca-do-brasileirao",
+      "timestamp": 1793094300.0
+    },
+    {
+      "source": "Portal Contábeis",
+      "title": "Receita e CGIBS criam 25 grupos para implementar reforma tributária",
+      "summary": "Receita Federal e Comitê Gestor do IBS instituem 25 grupos para elaborar normas, integrar sistemas e organizar a implementação da reforma tributária . Leia mais em https://www.contabeis.com.br/noticias/80378/receita-e-cgibs-criam-25-grupos-para-implementar-reforma-tributaria/",
+      "date": "27/10/2026 09:00",
+      "link": "https://www.contabeis.com.br/noticias/80378/receita-e-cgibs-criam-25-grupos-para-implementar-reforma-tributaria/",
+      "timestamp": 1793102401.0
+    },
+    {
+      "source": "Conselho Federal de Contabilidade",
+      "title": "CFC atualiza regras de processos de fiscalização e procedimentos de auditoria",
+      "summary": "A atualização das normas que orientam a fiscalização do exercício profissional está entre as prioridades do Conselho Federal de Contabilidade (CFC). Entre os dias 20 e 23 de outubro, a Comissão de Fiscalização da autarquia reuniu-se, em Brasília, para revisar procedimentos e…",
+      "date": "23/10/2026 18:48",
+      "link": "https://cfc.org.br/noticias/cfc-atualiza-regras-de-processos-de-fiscalizacao-e-procedimentos-de-auditoria/",
+      "timestamp": 1792792106.0
+    },
+    {
+      "source": "Brasil de Fato",
+      "title": "Sem provas, Bannon cobra de Trump isolamento do Brasil até anular eleição; Musk ecoa narrativa de fraude",
+      "summary": "O ex-estrategista da Casa Branca Steve Bannon e o bilionário Elon Musk, dono do X, questionaram, sem apresentar provas, o resultado das eleições que reelegeram o presidente Luiz Inácio Lula da Silva (PT) no domingo (25). Os ataques de fora vêm ao mesmo tempo em que, dentro do…",
+      "date": "27/10/2026 08:40",
+      "link": "https://www.brasildefato.com.br/2026/10/27/sem-provas-bannon-cobra-de-trump-isolamento-do-brasil-ate-anular-eleicao-musk-ecoa-narrativa-de-fraude/",
+      "timestamp": 1793101219.0
+    },
+    {
       "source": "Agência Brasil • Economia",
       "title": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
-      "summary": "As propagandas de empréstimos obedecerão a novas regras a partir do próximo ano, decidiu nesta sexta-feira (23) o Banco Central (BC). O órgão aprovou três resoluções para reforçar a proteção dos consumidores na contratação de crédito. As mudanças também criam um painel para consulta de dívidas e aumentam as exigências para a oferta de crédito durante transações pelo Pix. Notíci",
+      "summary": "As propagandas de empréstimos obedecerão a novas regras a partir do próximo ano, decidiu nesta sexta-feira (23) o Banco Central (BC). O órgão aprovou três resoluções para reforçar a proteção dos consumidores na contratação de crédito. As mudanças também criam um painel para…",
       "date": "23/10/2026 19:31",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-reforca-regras-de-protecao-ao-consumidor-nas-ofertas-de-credito",
       "timestamp": 1792794660.0
     },
     {
+      "source": "Agência Brasil • Últimas",
+      "title": "PL, partido de Flávio, reconhece vitória de Lula nas eleições",
+      "summary": "O presidente do Partido Liberal (PL), Valdemar Costa Neto, publicou nota oficial, nesta segunda-feira (26), em que reconhece a vitória do presidente Luiz Inácio Lula da Silva nas eleições deste ano. No entanto, ele cobrou esclarecimentos sobre o que chamou de medidas…",
+      "date": "26/10/2026 21:38",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/partido-de-flavio-pl-reconhece-vitoria-de-lula-nas-eleicoes",
+      "timestamp": 1793061480.0
+    },
+    {
+      "source": "Portal Contábeis",
+      "title": "Como desfazer uma fusão sem interromper operações",
+      "summary": "Entenda como contratos podem organizar a divisão de ativos e passivos, proteger acionistas e manter as operações durante a separação de empresas. Leia mais em https://www.contabeis.com.br/noticias/80360/como-desfazer-uma-fusao-sem-interromper-operacoes/",
+      "date": "26/10/2026 20:00",
+      "link": "https://www.contabeis.com.br/noticias/80360/como-desfazer-uma-fusao-sem-interromper-operacoes/",
+      "timestamp": 1793055601.0
+    },
+    {
+      "source": "Conselho Federal de Contabilidade",
+      "title": "Revista Brasileira de Contabilidade destaca parceria Brasil-Portugal e pesquisas sobre inteligência artificial e reforma tributária",
+      "summary": "Edição nº 280 reúne entrevista com a bastonária da Ordem dos Contabilistas Certificados de Portugal e estudos sobre os desafios e as transformações da profissão contábil A cooperação internacional, os avanços da inteligência artificial e os impactos da reforma tributária…",
+      "date": "23/10/2026 12:01",
+      "link": "https://cfc.org.br/internacional/revista-brasileira-de-contabilidade-destaca-parceria-brasil-portugal-e-pesquisas-sobre-inteligencia-artificial-e-reforma-tributaria/",
+      "timestamp": 1792767688.0
+    },
+    {
+      "source": "Brasil de Fato",
+      "title": "Do chão de fábrica para a história do Brasil, Lula completa 81 anos e promete mudar jeito de governar",
+      "summary": "Após virada inédita nas urnas, presidente reafirma suas origens na classe trabalhadora e promete ampliar diálogo no país Fonte",
+      "date": "27/10/2026 06:00",
+      "link": "https://www.brasildefato.com.br/2026/10/27/do-chao-de-fabrica-para-a-historia-do-brasil-lula-completa-81-anos-e-promete-mudar-jeito-de-governar/",
+      "timestamp": 1793091600.0
+    },
+    {
       "source": "Agência Brasil • Economia",
       "title": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
-      "summary": "O dólar fechou abaixo de R$ 5 nesta sexta-feira (23), e a bolsa brasileira subiu no último dia útil antes do segundo turno das eleições presidenciais. O petróleo avançou mais de 3% , atingindo o maior patamar desde abril, com o agravamento das tensões no Oriente Médio. No mercado doméstico, investidores ajustaram posições antes da votação de domingo (25) , com as tensões geopol",
+      "summary": "O dólar fechou abaixo de R$ 5 nesta sexta-feira (23), e a bolsa brasileira subiu no último dia útil antes do segundo turno das eleições presidenciais. O petróleo avançou mais de 3% , atingindo o maior patamar desde abril, com o agravamento das tensões no Oriente Médio. No…",
       "date": "23/10/2026 19:02",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-e-recua-158-na-semana",
       "timestamp": 1792792920.0
     },
     {
+      "source": "Agência Brasil • Últimas",
+      "title": "Harry Kane e Alexia Putellas vencem prêmio Bola de Ouro de 2026",
+      "summary": "O atacante Harry Kane e a meia Alexia Putellas são os vencedores da Bola de Ouro, tradicional premiação da revista France Football que condecora os melhores jogadores da temporada no futebol mundial. O anúncio dos ganhadores aconteceu nesta segunda-feira (26) no London…",
+      "date": "26/10/2026 21:12",
+      "link": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/harry-kane-e-alexia-putellas-vencem-premio-bola-de-ouro-de-2026",
+      "timestamp": 1793059920.0
+    },
+    {
+      "source": "Portal Contábeis",
+      "title": "Futuro financeiro preocupa jovens, mas poucos se preparam",
+      "summary": "Pesquisa do Instituto Locomotiva aponta que 80% dos jovens se preocupam com o futuro financeiro, mas só 34% dizem adotar medidas concretas. Leia mais em https://www.contabeis.com.br/noticias/80325/futuro-financeiro-preocupa-jovens-mas-poucos-se-preparam/",
+      "date": "26/10/2026 19:30",
+      "link": "https://www.contabeis.com.br/noticias/80325/futuro-financeiro-preocupa-jovens-mas-poucos-se-preparam/",
+      "timestamp": 1793053802.0
+    },
+    {
+      "source": "Conselho Federal de Contabilidade",
+      "title": "Durigan diz que contador será o agente de conformidade da reforma tributária",
+      "summary": "O ministro da Fazenda, Dario Durigan, apontou os contadores como agentes de conformidade na implementação da reforma tributária. Ele tratou do tema na quarta-feira (21), no Ministério da Fazenda, em reunião com o Conselho Federal de Contabilidade (CFC). “É muito importante,…",
+      "date": "23/10/2026 10:11",
+      "link": "https://cfc.org.br/noticias/durigan-diz-que-contador-sera-o-agente-de-conformidade-da-reforma-tributaria/",
+      "timestamp": 1792761079.0
+    },
+    {
+      "source": "Brasil de Fato",
+      "title": "Virada em 76 cidades e avanço na Grande BH garantem vitória de Lula em Minas",
+      "summary": "A vitória de Luiz Inácio Lula da Silva (PT) sobre Flávio Bolsonaro (PL) em Minas Gerais foi resultado de uma mudança expressiva na distribuição dos votos entre o primeiro e o segundo turno das eleições presidenciais. Único estado do país em que houve virada no resultado entre…",
+      "date": "27/10/2026 00:51",
+      "link": "https://www.brasildefato.com.br/2026/10/27/virada-em-76-cidades-e-avanco-na-grande-bh-garantem-vitoria-de-lula-em-minas/",
+      "timestamp": 1793073089.0
+    },
+    {
       "source": "Agência Brasil • Economia",
       "title": "Receita abre consulta a lote residual do Imposto de Renda",
-      "summary": "A Receita Federal abriu nesta sexta-feira (23) a consulta ao lote residual de restituição do Imposto de Renda Pessoa Física (IRPF). Ao todo, 184.442 contribuintes serão contemplados com R$ 531,6 milhões. O pagamento está previsto para 30 de outubro. Segundo a Receita, o lote contempla declarações do Imposto de Renda de 2026 entregues fora do prazo ou que estavam retidas em malh",
+      "summary": "A Receita Federal abriu nesta sexta-feira (23) a consulta ao lote residual de restituição do Imposto de Renda Pessoa Física (IRPF). Ao todo, 184.442 contribuintes serão contemplados com R$ 531,6 milhões. O pagamento está previsto para 30 de outubro. Segundo a Receita, o lote…",
       "date": "23/10/2026 11:18",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-abre-consulta-lote-residual-do-imposto-de-renda",
       "timestamp": 1792765080.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%",
-      "summary": "A prévia da inflação oficial de outubro ficou em 0,32%, menos da metade do mês anterior (0,7%), conforme divulgou o Instituto Brasileiro de Geografia e Estatística (IBGE), nesta sexta-feira (23). O resultado faz com que o Índice Nacional de Preços ao Consumidor Amplo 15 (IPCA-15) acumule 4,62% em 12 meses. Esse patamar fica acima da meta do governo, que tolera até 4,5% ao ano .",
-      "date": "23/10/2026 10:42",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previa-da-inflacao-oficial-cai-pela-metade-e-fecha-outubro-em-032",
-      "timestamp": 1792762920.0
+      "source": "Agência Brasil • Últimas",
+      "title": "CNBB parabeniza Lula e pede atenção aos mais pobres",
+      "summary": "A Conferência Nacional dos Bispos do Brasil (CNBB) parabenizou o presidente Luiz Inácio Lula da Silva e ao vice-presidente Geraldo Alckmin pela reeleição, no 2º turno das eleições e pediu atenção prioritária para os pobres e vulneráveis. \"Acreditamos que a dignidade da pessoa…",
+      "date": "26/10/2026 20:52",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/cnbb-parabeniza-lula-e-pede-atencao-aos-mais-pobres",
+      "timestamp": 1793058720.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
-      "summary": "As instituições financeiras terão cinco dias úteis para a informar ao governo as dívidas que pretendem oferecer para renegociação na primeira etapa do Desenrola 3.0. O Diário Oficial da União publicou, em edição extraordinária, a portaria com o edital de chamamento . A terceira versão do Desenrola prevê a compra de dívidas pelo governo. Na quarta-feira (21), o ministro da Fazen",
-      "date": "22/10/2026 22:04",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola",
-      "timestamp": 1792717440.0
+      "source": "Portal Contábeis",
+      "title": "Alíquota efetiva do Simples Nacional: como calcular",
+      "summary": "Entenda como calcular a alíquota efetiva do Simples Nacional , a influência do RBT12 e do Fator R e por que o percentual difere da tabela. Leia mais em https://www.contabeis.com.br/artigos/80329/aliquota-efetiva-do-simples-nacional-como-calcular/",
+      "date": "26/10/2026 19:00",
+      "link": "https://www.contabeis.com.br/artigos/80329/aliquota-efetiva-do-simples-nacional-como-calcular/",
+      "timestamp": 1793052001.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
-      "summary": "O Conselho Monetário Nacional (CMN) e o Banco Central (BC) aprovaram nesta quinta-feira (22) mudanças nas regras de compartilhamento de dados pelo Open Finance, sistema que permite aos clientes autorizar o compartilhamento de informações financeiras entre instituições. As alterações reforçam a segurança, ampliam a transparência e estabelecem novas exigências para bancos e demai",
-      "date": "22/10/2026 20:03",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance",
-      "timestamp": 1792710180.0
+      "source": "Conselho Federal de Contabilidade",
+      "title": "Normas sobre receitas e despesas de transferência recebem contribuições até 12 de novembro",
+      "summary": "As Normas Brasileiras de Contabilidade Técnica Aplicadas ao Setor Público (NBC TSP) 39 – Receita e 40 – Despesa de Transferência estão disponíveis em audiência pública. Os profissionais da contabilidade e demais interessados podem contribuir com sugestões e comentários às…",
+      "date": "23/10/2026 09:23",
+      "link": "https://cfc.org.br/noticias/cfc-disponibiliza-em-audiencia-publica-duas-normas-do-setor-publico/",
+      "timestamp": 1792758235.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
-      "summary": "A previsão de superávit primário no Orçamento de 2027 está mantida, mesmo após o anúncio recente de medidas com impacto nas contas públicas, disse nesta quinta-feira (22) o ministro da Fazenda, Dario Durigan. Segundo ele, as iniciativas foram planejadas dentro das regras fiscais vigentes e sem alterações no arcabouço fiscal. “Na parte fiscal, nós estamos entregando superávit pa",
-      "date": "22/10/2026 17:59",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previsao-de-superavit-no-orcamento-de-2027-esta-mantida-diz-durigan",
-      "timestamp": 1792702740.0
+      "source": "Brasil de Fato",
+      "title": "Diferença entre Flávio Bolsonaro e Lula ficou na margem de erro, explica cientista política",
+      "summary": "Diferença entre Flávio Bolsonaro e Lula ficou na margem de erro, explica cientista política Fonte",
+      "date": "26/10/2026 22:40",
+      "link": "https://www.brasildefato.com.br/2026/10/26/diferenca-entre-flavio-bolsonaro-e-lula-ficou-na-margem-de-erro-explica-cientista-politica/",
+      "timestamp": 1793065247.0
     }
   ]
 }

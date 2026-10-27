@@ -17,13 +17,13 @@
 </section>
 <div class="main">
 <section class="card"><div class="head"><h2>Economia e negócios</h2><span class="pill" id="newsstatus">Atualização automática quando disponível</span></div><div id="news"></div><div class="caption">Manchetes e resumos de feeds públicos, com fonte e data. Atualização automática via GitHub Actions; sem necessidade de clicar na TV.</div></section>
-<section class="card"><div class="head"><h2>Agenda de vencimentos • STAO</h2><span class="pill">Prazos fiscais e contábeis</span></div><div id="notices"></div><div class="info"><div class="dot"></div><div>Prazos federais: RFB • ICMS/PR: consultar calendário SEFA/PR • confirme aplicabilidade e alterações</div></div></section>
+<section class="card"><div class="head"><h2>Agenda de vencimentos • STAO</h2><span class="pill">Prazos fiscais e contábeis</span></div><div id="notices"></div></section>
 </div>
 <div class="bottom"><div><b>STAO CONTABILIDADE</b> • Conte com orientação contábil e tributária para decidir melhor.</div><div id="updated">Sincronizando indicadores…</div></div>
-<div class="caption">Câmbio: AwesomeAPI, referência informativa • Meteorologia: Open-Meteo • Notícias: Agência Brasil/EBC (RSS) via GitHub Actions • Agenda: RFB e SEFA/PR. As cotações podem sofrer atraso; não representam taxa contratual.</div>
+<div class="caption">Câmbio: AwesomeAPI, referência informativa • Meteorologia: Open-Meteo • Notícias: Agência Brasil/EBC, Portal Contábeis, CFC e Brasil de Fato (RSS) via GitHub Actions • Agenda: referência Contabilizei; datas conferidas na RFB e SEFA/PR. As cotações podem sofrer atraso; não representam taxa contratual.</div>
 </div>
 <button id="gear" title="Configurações">⚙</button>
-<div id="settings" class="settings"><h2>Configurações da TV STAO</h2><p>Altere os dados e clique em salvar. Eles ficarão gravados neste navegador da TV.</p><label>Cidade da previsão do tempo (município)</label><input id="cityinput" placeholder="Andirá"><label>Estado (UF)</label><input id="stateinput" placeholder="PR" maxlength="2"><p>Agenda fiscal definida no arquivo index.html. Para alterar prazos, edite o código e confira os órgãos oficiais.</p><button id="save">Salvar e atualizar</button> <button class="close" id="close">Fechar</button><p style="font-size:12px">Obs.: para abrir o painel permanentemente, publique este arquivo em uma hospedagem estática gratuita, como GitHub Pages.</p></div>
+<div id="settings" class="settings"><h2>Configurações da TV STAO</h2><p>Altere os dados e clique em salvar. Eles ficarão gravados neste navegador da TV.</p><label>Cidade da previsão do tempo (município)</label><input id="cityinput" placeholder="Andirá"><label>Estado (UF)</label><input id="stateinput" placeholder="PR" maxlength="2"><p>Agenda fiscal sincronizada automaticamente pelo GitHub Actions, com vencimentos publicados pela Receita Federal.</p><button id="save">Salvar e atualizar</button> <button class="close" id="close">Fechar</button><p style="font-size:12px">Obs.: para abrir o painel permanentemente, publique este arquivo em uma hospedagem estática gratuita, como GitHub Pages.</p></div>
 <script>
 (function(){'use strict';
 const $=id=>document.getElementById(id);
@@ -31,24 +31,25 @@ const defaults={city:'Andirá',uf:'PR'};let cfg;try{cfg=Object.assign({},default
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmtDay=d=>d.toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit'});
 function clock(){let d=new Date();$('clock').textContent=d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit',timeZone:'America/Sao_Paulo'});$('date').textContent=d.toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo',weekday:'long',day:'2-digit',month:'long',year:'numeric'}).toUpperCase()}clock();setInterval(clock,15000);
-// Datas pontuais verificadas para outubro/2026. Não repetir automaticamente nos meses seguintes.
-const agendaOct=[
- {date:'2026-10-28',name:'DeSTDA • competência 09/2026',detail:'Obrigação estadual quando aplicável; conferir enquadramento no PR',kind:'PR • conferir'},
- {date:'2026-10-30',name:'DCTFWeb • competência 09/2026',detail:'Prazo federal, conforme obrigatoriedade',kind:'Federal'},
- {date:'2026-10-30',name:'IRPJ/CSLL • 3º trimestre ou estimativa',detail:'Conforme regime tributário e forma de apuração',kind:'Federal'},
- {date:'2026-10-30',name:'DME / DOI / DeCripto',detail:'Somente contribuintes obrigados',kind:'Federal'}
-];
-const officialLinks=[
- {name:'Agenda tributária mensal da Receita Federal',detail:'Confira diariamente os vencimentos federais oficiais',url:'https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2026'},
- {name:'Calendário de ICMS do Paraná',detail:'Regime normal, ST e prazos especiais podem ser diferentes',url:'https://refis.fazenda.pr.gov.br/servicos/Empresa/ICMS/Consultar-calendarios-de-pagamento-do-ICMS-ye31vWrM'},
- {name:'DeSTDA • orientações da SEFA/PR',detail:'Verifique obrigação e exceções por contribuinte',url:'https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/11'}
-];
-function agenda(){const today=new Date().toLocaleDateString('en-CA',{timeZone:'America/Sao_Paulo'});const month=today.slice(0,7);let items=month==='2026-10'?agendaOct.filter(x=>x.date>=today):[];
- let html=items.map(x=>'<div class="deadline"><div class="duedate">'+safe(x.date.slice(8)+'/'+x.date.slice(5,7))+'</div><div class="duetext">'+safe(x.name)+'<small>'+safe(x.kind)+' • '+safe(x.detail)+'</small></div></div>').join('');
- if(!items.length)html='<div class="notice"><span>Agenda do mês</span>Sem datas deste mês validadas nesta versão. Consulte os calendários oficiais abaixo para não utilizar prazos desatualizados.</div>';
- html+='<div style="margin-top:2vh">'+officialLinks.map(x=>'<div class="newsitem"><small>'+safe(x.detail)+'</small><a target="_blank" rel="noopener noreferrer" href="'+x.url+'">'+safe(x.name)+'</a></div>').join('')+'</div>';
- $('notices').innerHTML=html;
-}agenda();setInterval(agenda,60*60*1000);
+let agendaItems=[],agendaPage=0;
+function agenda(){
+ const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+ const items=agendaItems.filter(x=>/^\d{4}-\d{2}-\d{2}$/.test(x.date)&&x.date.slice(0,7)===today.slice(0,7)&&x.date>=today).sort((a,b)=>a.date.localeCompare(b.date));
+ const pages=Math.max(1,Math.ceil(items.length/4));agendaPage%=pages;
+ $('notices').innerHTML=items.slice(agendaPage*4,agendaPage*4+4).map(x=>'<div class="deadline"><div class="duedate">'+safe(x.date.slice(8)+'/'+x.date.slice(5,7))+'</div><div class="duetext">'+safe(x.name)+'<small>'+safe(x.kind)+' • '+safe(x.detail)+'</small></div></div>').join('');
+ $('notices').parentElement.hidden=items.length===0;
+ agendaPage=(agendaPage+1)%pages;
+}
+async function loadAgenda(){
+ try{
+  const response=await fetch('agenda.json?t='+Date.now(),{cache:'no-store'});
+  if(!response.ok)throw Error('Agenda indisponível');
+  const data=await response.json();if(!Array.isArray(data.items))throw Error('Agenda inválida');
+  agendaItems=data.items.filter(x=>x&&typeof x.date==='string'&&typeof x.name==='string');agendaPage=0;
+ }catch(_){/* Preservar dados em memória; agenda() exclui meses antigos. */}
+ agenda();
+}
+loadAgenda();setInterval(loadAgenda,30*60*1000);setInterval(agenda,16*1000);
 function asMoney(n){return Number(n).toLocaleString('pt-BR',{style:'currency',currency:'BRL',minimumFractionDigits:4,maximumFractionDigits:4})}
 async function currency(){
   try {
@@ -118,12 +119,12 @@ async function weather(){
  }catch(e){if(request!==weatherRequest)return;$('temp').textContent='—';$('weathericon').innerHTML='';$('weatherhours').innerHTML='';$('weathertext').textContent='Clima temporariamente indisponível';$('weatherstatus').textContent='Nova tentativa automática em até 15 minutos';}
 }
 let headlines=[],newsIndex=0;
-function renderHeadline(){if(!headlines.length){$('news').innerHTML='<div class="notice">Notícias ainda não sincronizadas. Execute a ação “Atualizar notícias STAO” no GitHub ou aguarde a próxima atualização automática.</div>';$('newsstatus').textContent='Aguardando notícias';return;}
+function renderHeadline(){if(!headlines.length){$('news').innerHTML='<div class="notice">Nenhuma notícia recente disponível. Aguardando a próxima atualização automática.</div>';$('newsstatus').textContent='Aguardando notícias';return;}
  const x=headlines[newsIndex%headlines.length];newsIndex++;
  $('news').innerHTML='<div class="newsfoot">'+safe(x.source)+' • '+safe(x.date||'')+'</div><div class="headline">'+safe(x.title)+'</div><div class="snippet">'+safe(x.summary||'Resumo não fornecido pelo veículo.')+'</div><div class="newsfoot">Notícia '+((newsIndex-1)%headlines.length+1)+' de '+headlines.length+' • Troca automática a cada 16 segundos</div>';
  $('newsstatus').textContent='Rotação automática • '+headlines.length+' notícias';
 }
-async function loadNews(){try{const r=await fetch('news.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('news.json');const d=await r.json();if(!Array.isArray(d.items)||!d.items.length)throw Error('Feed vazio');headlines=d.items.filter(x=>x.title&&x.source).slice(0,30);for(let i=headlines.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[headlines[i],headlines[j]]=[headlines[j],headlines[i]]}newsIndex=0;renderHeadline()}catch(_){if(!headlines.length)renderHeadline()}}
+async function loadNews(){try{const r=await fetch('news.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('news.json');const d=await r.json();if(!Array.isArray(d.items))throw Error('Feed inválido');const now=Date.now()/1000;headlines=d.items.filter(x=>x.title&&x.source&&Number.isFinite(x.timestamp)&&x.timestamp>=now-14*86400&&x.timestamp<=now+3600).slice(0,30);for(let i=headlines.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[headlines[i],headlines[j]]=[headlines[j],headlines[i]]}newsIndex=0;renderHeadline()}catch(_){if(!headlines.length)renderHeadline()}}
 $('gear').onclick=()=>{$('settings').classList.add('show');$('cityinput').value=cfg.city;$('stateinput').value=cfg.uf};
 $('close').onclick=()=>$('settings').classList.remove('show');
 $('save').onclick=()=>{cfg={city:$('cityinput').value.trim()||defaults.city,uf:$('stateinput').value.trim().toUpperCase()||'PR'};try{localStorage.setItem('staoTV',JSON.stringify(cfg))}catch(_){}$('settings').classList.remove('show');weather()};
