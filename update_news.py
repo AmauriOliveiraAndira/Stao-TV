@@ -17,6 +17,7 @@ FEEDS = [
     ('Conselho Federal de Contabilidade', 'https://cfc.org.br/feed/'),
     ('Brasil de Fato', 'https://www.brasildefato.com.br/feed/'),
     ('Investing.com Brasil', 'https://br.investing.com/rss/news.rss'),
+    ('Jovem Pan', 'https://jovempan.com.br/feed'),
 ]
 OUT = Path(__file__).parent / 'news.json'
 MAX_AGE = 14 * 86400
@@ -60,7 +61,7 @@ def read_feed(source, url):
     with urllib.request.urlopen(request, timeout=25) as response:
         return parse_feed(source, response.read(3_000_000))
 
-def select_items(items, now, limit=30):
+def select_items(items, now, limit=100):
     # Alternar as fontes para que uma redação com mais publicações não elimine as demais.
     queues = {source: [] for source, _ in FEEDS}
     for item in sorted(items, key=lambda x: x.get('timestamp', 0), reverse=True):
@@ -103,7 +104,8 @@ def main():
             print('Feed indisponível:', source, str(error))
             items.extend(item for item in previous if item.get('source') == source)
             statuses.append({'source': source, 'ok': False})
-    clean = select_items(items, now.timestamp())
+    # Acumular notícias ainda recentes entre coletas, inclusive de feeds curtos.
+    clean = select_items(items + previous, now.timestamp())
     # Mesmo sem notícias recentes, registrar lista vazia para remover manchetes vencidas.
     data = {'updated_at': now.isoformat(), 'sources': statuses, 'items': clean}
     temporary = OUT.with_suffix('.tmp')

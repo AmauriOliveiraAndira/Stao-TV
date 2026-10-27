@@ -11,8 +11,12 @@ São coletados os vencimentos publicados pela Receita Federal para os grupos de 
 
 A Contabilizei é referência das categorias, e não fonte automática de datas atuais. FGTS e prazos estaduais não publicados pela RFB não fazem parte da coleta federal. agenda_estadual.json preserva somente datas estaduais conferidas individualmente, sem repetição automática. Para novos meses, a agenda federal atualiza automaticamente; a estadual exige validação específica.
 
-Notícias: Agência Brasil (Economia e Últimas), Portal Contábeis, Conselho Federal de Contabilidade Brasil de Fato e Investing.com Brasil. Coleta a cada duas horas, com até 30 manchetes distribuídas entre os feeds, fonte, data e excerto curto. São excluídos itens sem data e com mais de 14 dias. Em falha de uma fonte, preservam-se os itens recentes anteriores dessa fonte.
+Notícias: Agência Brasil (Economia e Últimas), Portal Contábeis, Conselho Federal de Contabilidade Brasil de Fato Investing.com Brasil e Jovem Pan. Coleta a cada duas horas, com até 100 manchetes distribuídas entre os feeds, fonte, data e excerto curto. São excluídos itens sem data e com mais de 14 dias. Em falha de uma fonte, preservam-se os itens recentes anteriores dessa fonte.
 
 Tema escuro com letras ampliadas, azul-petróleo e cinzas da STAO. Inclua a pasta assets com logo-stao.png no envio. O painel ajusta a composição 16:9 automaticamente à área útil do navegador, sem rolagem.
 
 Câmbio: as setas ↑, ↓ e → indicam o sinal de pctChange informado pela AwesomeAPI, acompanhado do percentual. Quando a variação não estiver disponível ou a consulta falhar, a seta direcional é removida. A logo original permanece em uma pequena superfície clara para preservar sua leitura.
+
+Clima e agenda têm a mesma largura, com as bordas alinhadas. O rodízio aceita até 100 manchetes únicas dos últimos 14 dias e acumula notícias recentes entre coletas para aproveitar feeds menores.
+
+Cada notícia fica 30 segundos na tela. A agenda mantém o rodízio próprio de 16 segundos.

@@ -22,8 +22,9 @@ class NewsTests(unittest.TestCase):
         items += [{'source':FEEDS[0][0],'title':'Muito antiga','timestamp':now-30*86400},
                   {'source':FEEDS[0][0],'title':'Futura','timestamp':now+86400},items[0]]
         result=select_items(items,now)
-        self.assertEqual(len(result),30)
-        self.assertEqual(len({x['title'] for x in result}),30)
-        for source,_ in FEEDS:self.assertEqual(sum(x['source']==source for x in result),30//len(FEEDS))
+        self.assertEqual(len(result),100)
+        self.assertEqual(len({x['title'] for x in result}),100)
+        counts=[sum(x['source']==source for x in result) for source,_ in FEEDS]
+        self.assertLessEqual(max(counts)-min(counts),1)
 
 if __name__=='__main__':unittest.main()
