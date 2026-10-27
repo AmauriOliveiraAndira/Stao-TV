@@ -12,3 +12,5 @@ São coletados os vencimentos publicados pela Receita Federal para os grupos de 
 A Contabilizei é referência das categorias, e não fonte automática de datas atuais. FGTS e prazos estaduais não publicados pela RFB não fazem parte da coleta federal. agenda_estadual.json preserva somente datas estaduais conferidas individualmente, sem repetição automática. Para novos meses, a agenda federal atualiza automaticamente; a estadual exige validação específica.
 
 Notícias: Agência Brasil (Economia e Últimas), Portal Contábeis, Conselho Federal de Contabilidade e Brasil de Fato. Coleta a cada duas horas, com até 30 manchetes distribuídas entre os feeds, fonte, data e excerto curto. São excluídos itens sem data e com mais de 14 dias. Em falha de uma fonte, preservam-se os itens recentes anteriores dessa fonte.
+
+Tema claro com paleta azul-petróleo e cinzas da STAO. Inclua a pasta assets com logo-stao.png no envio. O painel ajusta a composição 16:9 automaticamente à área útil do navegador, sem rolagem.
