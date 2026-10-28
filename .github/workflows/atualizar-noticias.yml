@@ -13,10 +13,10 @@ on:
       - .github/workflows/atualizar-noticias.yml
   workflow_dispatch:
   schedule:
-    - cron: "17 */2 * * *"
+    - cron: "7,17,27,37,47,57 * * * *"
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -36,6 +36,27 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Recuperar a última coleta publicada
+        run: |
+          python - <<'PYTHON'
+          import json
+          import urllib.request
+          from pathlib import Path
+          for name in ('news.json', 'agenda.json'):
+              try:
+                  request = urllib.request.Request(
+                      'https://amaurioliveiraandira.github.io/Stao-TV/' + name,
+                      headers={'Cache-Control': 'no-cache', 'User-Agent': 'STAO-TV/1.0'})
+                  with urllib.request.urlopen(request, timeout=20) as response:
+                      data = json.load(response)
+                  if not isinstance(data, dict) or not isinstance(data.get('items'), list):
+                      raise ValueError('Formato inválido')
+                  Path(name).write_text(json.dumps(data, ensure_ascii=False), encoding='utf-8')
+                  print('Coleta anterior recuperada:', name)
+              except Exception as error:
+                  print('Usando arquivo do repositório:', name, str(error))
+          PYTHON
+
       - name: Atualizar notícias
         run: python update_news.py
 
@@ -46,16 +67,6 @@ jobs:
         id: agenda
         continue-on-error: true
         run: python update_agenda.py
-
-      - name: Salvar notícias e agenda
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json agenda.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Atualização automática de notícias e agenda STAO"
-            git push
-          fi
 
       - name: Preparar arquivos públicos
         run: |
