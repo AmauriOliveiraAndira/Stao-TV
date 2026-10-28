@@ -1,22 +1,14 @@
-# Publicar a atualização STAO
+# Publicar atualização STAO
 
-1. Envie os arquivos deste pacote para a raiz do repositório, preservando a pasta `.github/workflows` e substituindo os arquivos existentes. Mantenha `news.json` no repositório.
-2. Em Settings → Pages → Build and deployment → Source, selecione **GitHub Actions**.
-3. Em Actions, abra **Atualizar notícias e agenda STAO** e clique em Run workflow. O envio para main também inicia a publicação.
-4. Aguarde os dois trabalhos ficarem verdes e recarregue a TV uma vez.
+1. Extraia o ZIP e envie os arquivos à raiz do repositório, incluindo assets e .github/workflows. No Mac, Command + Shift + ponto mostra a pasta .github.
+2. Em Settings → Pages → Source, mantenha GitHub Actions.
+3. Execute Actions → Atualizar notícias e agenda STAO → Run workflow e aguarde atualizar e publicar ficarem verdes.
+4. Reabra o painel na TV uma vez para carregar este código novo.
 
-A coleta federal ocorre uma vez por dia, aproveitando a execução de notícias a cada duas horas. A TV consulta agenda.json a cada 30 minutos e alterna três obrigações a cada 16 segundos. A execução agendada pode atrasar no GitHub.
+Notícias: até 100 manchetes únicas dos últimos 14 dias, de BBC News Brasil, Portal Contábeis, CFC, Brasil de Fato, Investing.com Brasil e Jovem Pan. A Agência Brasil foi removida.
 
-São coletados os vencimentos publicados pela Receita Federal para os grupos de rotina contábil configurados no script. Não é uma agenda exaustiva para todos os contribuintes. As datas e códigos específicos são preservados. Se o calendário falhar ou mudar de formato, a execução sinaliza falha na etapa da agenda e conserva os dados anteriores; o painel exclui outros meses e dias vencidos.
+O GitHub consulta os feeds a cada 10 minutos (minutos 7, 17, 27, 37, 47 e 57). O agendamento pode atrasar no GitHub. A TV verifica o JSON a cada minuto e mostra cada notícia por 20 segundos. Consultas não reiniciam a posição do rodízio. Os avisos de rotação e tempo de troca estão ocultos; fonte, data e contador permanecem.
 
-A Contabilizei é referência das categorias, e não fonte automática de datas atuais. FGTS e prazos estaduais não publicados pela RFB não fazem parte da coleta federal. agenda_estadual.json preserva somente datas estaduais conferidas individualmente, sem repetição automática. Para novos meses, a agenda federal atualiza automaticamente; a estadual exige validação específica.
+A coleta federal da agenda continua diária e exibe três obrigações por vez, com troca a cada 16 segundos. Prazos estaduais precisam de validação específica em agenda_estadual.json. Falhas preservam a última coleta; datas de meses passados são excluídas da tela.
 
-Notícias: Agência Brasil (Economia e Últimas), Portal Contábeis, Conselho Federal de Contabilidade Brasil de Fato Investing.com Brasil e Jovem Pan. Coleta a cada duas horas, com até 100 manchetes distribuídas entre os feeds, fonte, data e excerto curto. São excluídos itens sem data e com mais de 14 dias. Em falha de uma fonte, preservam-se os itens recentes anteriores dessa fonte.
-
-Tema escuro com letras ampliadas, azul-petróleo e cinzas da STAO. Inclua a pasta assets com logo-stao.png no envio. O painel ajusta a composição 16:9 automaticamente à área útil do navegador, sem rolagem.
-
-Câmbio: as setas ↑, ↓ e → indicam o sinal de pctChange informado pela AwesomeAPI, acompanhado do percentual. Quando a variação não estiver disponível ou a consulta falhar, a seta direcional é removida. A logo original permanece em uma pequena superfície clara para preservar sua leitura.
-
-Clima e agenda têm a mesma largura, com as bordas alinhadas. O rodízio aceita até 100 manchetes únicas dos últimos 14 dias e acumula notícias recentes entre coletas para aproveitar feeds menores.
-
-Cada notícia fica 30 segundos na tela. A agenda mantém o rodízio próprio de 16 segundos.
+Tema escuro, logo original em assets/logo-stao.png, fontes ampliadas e ajuste proporcional à tela. Clima e agenda têm as bordas alinhadas. Setas do câmbio indicam o sinal da variação percentual informada pela AwesomeAPI.

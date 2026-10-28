@@ -24,6 +24,8 @@ body{display:flex;align-items:center;justify-content:center}
 #notices{grid-template-rows:repeat(3,minmax(0,1fr))}.duedate{font-size:32px;min-width:108px}.duetext{font-size:28px;line-height:1.2;-webkit-line-clamp:3}.duetext small{font-size:20px;line-height:1.2}.deadline{padding:10px 0}
 .subtitle{font-size:22px}.clock span{font-size:20px}.weather-condition{font-size:25px}.weather-hour time{font-size:21px}.weather-hour strong{font-size:26px}.weather-status{font-size:15px;line-height:1.1;margin-top:2px}.weather-hours{margin-top:8px;padding-top:8px}.weather-hour svg{width:34px;height:34px}.weather-current .value{font-size:68px}
 .bottom{font-size:19px}.main .caption{display:none}.container>.caption{font-size:14px}.settings button{background:#005675}.settings input{background:#f4f6f7;color:#142d42}
+
+#newsstatus{display:none}
 </style>
 </head>
 <body>
@@ -39,7 +41,7 @@ body{display:flex;align-items:center;justify-content:center}
 <section class="card"><div class="head"><h2>Agenda de vencimentos • STAO</h2><span class="pill">Prazos fiscais e contábeis</span></div><div id="notices"></div></section>
 </div>
 <div class="bottom"><div><b>STAO CONTABILIDADE</b> • Conte com orientação contábil e tributária para decidir melhor.</div><div id="updated">Sincronizando indicadores…</div></div>
-<div class="caption">Câmbio: AwesomeAPI, setas indicam a variação percentual informada pela fonte • Meteorologia: Open-Meteo • Notícias: Agência Brasil/EBC, Portal Contábeis, CFC, Brasil de Fato, Investing.com e Jovem Pan (RSS) via GitHub Actions • Agenda: referência Contabilizei; datas conferidas na RFB e SEFA/PR. As cotações podem sofrer atraso; não representam taxa contratual.</div>
+<div class="caption">Câmbio: AwesomeAPI, setas indicam a variação percentual informada pela fonte • Meteorologia: Open-Meteo • Notícias: BBC News Brasil, Portal Contábeis, CFC, Brasil de Fato, Investing.com e Jovem Pan (RSS) via GitHub Actions • Agenda: referência Contabilizei; datas conferidas na RFB e SEFA/PR. As cotações podem sofrer atraso; não representam taxa contratual.</div>
 </div>
 <button id="gear" title="Configurações">⚙</button>
 <div id="settings" class="settings"><h2>Configurações da TV STAO</h2><p>Altere os dados e clique em salvar. Eles ficarão gravados neste navegador da TV.</p><label>Cidade da previsão do tempo (município)</label><input id="cityinput" placeholder="Andirá"><label>Estado (UF)</label><input id="stateinput" placeholder="PR" maxlength="2"><p>Agenda fiscal sincronizada automaticamente pelo GitHub Actions, com vencimentos publicados pela Receita Federal.</p><button id="save">Salvar e atualizar</button> <button class="close" id="close">Fechar</button><p style="font-size:12px">Obs.: para abrir o painel permanentemente, publique este arquivo em uma hospedagem estática gratuita, como GitHub Pages.</p></div>
@@ -160,14 +162,34 @@ async function weather(){
 let headlines=[],newsIndex=0;
 function renderHeadline(){if(!headlines.length){$('news').innerHTML='<div class="notice">Nenhuma notícia recente disponível. Aguardando a próxima atualização automática.</div>';$('newsstatus').textContent='Aguardando notícias';return;}
  const x=headlines[newsIndex%headlines.length];newsIndex++;
- $('news').innerHTML='<div class="newsfoot">'+safe(x.source)+' • '+safe(x.date||'')+'</div><div class="headline">'+safe(x.title)+'</div>'+(x.summary?'<div class="snippet">'+safe(x.summary)+'</div>':'')+'<div class="newsfoot">Notícia '+((newsIndex-1)%headlines.length+1)+' de '+headlines.length+' • Troca automática a cada 30 segundos</div>';
+ $('news').innerHTML='<div class="newsfoot">'+safe(x.source)+' • '+safe(x.date||'')+'</div><div class="headline">'+safe(x.title)+'</div>'+(x.summary?'<div class="snippet">'+safe(x.summary)+'</div>':'')+'<div class="newsfoot">Notícia '+((newsIndex-1)%headlines.length+1)+' de '+headlines.length+'</div>';
  $('newsstatus').textContent='Rotação automática • '+headlines.length+' notícias';
 }
-async function loadNews(){try{const r=await fetch('news.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('news.json');const d=await r.json();if(!Array.isArray(d.items))throw Error('Feed inválido');const now=Date.now()/1000;headlines=d.items.filter(x=>x.title&&x.source&&Number.isFinite(x.timestamp)&&x.timestamp>=now-14*86400&&x.timestamp<=now+3600).slice(0,100);for(let i=headlines.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[headlines[i],headlines[j]]=[headlines[j],headlines[i]]}newsIndex=0;renderHeadline()}catch(_){if(!headlines.length)renderHeadline()}}
+async function loadNews(){
+ try{
+  const response=await fetch('news.json?t='+Date.now(),{cache:'no-store'});
+  if(!response.ok)throw Error('news.json');
+  const data=await response.json();if(!Array.isArray(data.items))throw Error('Feed inválido');
+  const now=Date.now()/1000;
+  const incoming=data.items.filter(x=>x.title&&x.source&&!x.source.startsWith('Agência Brasil')&&Number.isFinite(x.timestamp)&&x.timestamp>=now-14*86400&&x.timestamp<=now+3600).slice(0,100);
+  const key=x=>x.link||x.source+'|'+x.title;
+  const current=headlines.length?key(headlines[(newsIndex-1+headlines.length)%headlines.length]):null;
+  const remaining=new Map(incoming.map(x=>[key(x),x]));
+  const ordered=[];
+  for(const old of headlines){const id=key(old);if(remaining.has(id)){ordered.push(remaining.get(id));remaining.delete(id)}}
+  const additions=Array.from(remaining.values());
+  for(let i=additions.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[additions[i],additions[j]]=[additions[j],additions[i]]}
+  headlines=ordered.concat(additions);
+  const index=current===null?-1:headlines.findIndex(x=>key(x)===current);
+  newsIndex=index>=0?index+1:newsIndex%Math.max(1,headlines.length);
+  // Atualizar os dados sem reiniciar o rodízio nem encurtar a leitura atual.
+  if(current===null||index<0)renderHeadline();
+ }catch(_){if(!headlines.length)renderHeadline()}
+}
 $('gear').onclick=()=>{$('settings').classList.add('show');$('cityinput').value=cfg.city;$('stateinput').value=cfg.uf};
 $('close').onclick=()=>$('settings').classList.remove('show');
 $('save').onclick=()=>{cfg={city:$('cityinput').value.trim()||defaults.city,uf:$('stateinput').value.trim().toUpperCase()||'PR'};try{localStorage.setItem('staoTV',JSON.stringify(cfg))}catch(_){}$('settings').classList.remove('show');weather()};
-clock();currency();weather();loadNews();setInterval(currency,5*60*1000);setInterval(weather,15*60*1000);setInterval(loadNews,30*60*1000);setInterval(()=>{if(headlines.length)renderHeadline()},30*1000);
+clock();currency();weather();loadNews();setInterval(currency,5*60*1000);setInterval(weather,15*60*1000);setInterval(loadNews,60*1000);setInterval(()=>{if(headlines.length)renderHeadline()},20*1000);
 
 })();
 </script></body></html>

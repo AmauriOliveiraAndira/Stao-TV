@@ -11,8 +11,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 FEEDS = [
-    ('Agência Brasil • Economia', 'https://agenciabrasil.ebc.com.br/rss/economia/feed.xml'),
-    ('Agência Brasil • Últimas', 'https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml'),
+    ('BBC News Brasil', 'https://feeds.bbci.co.uk/portuguese/rss.xml'),
     ('Portal Contábeis', 'https://www.contabeis.com.br/rss/conteudo/'),
     ('Conselho Federal de Contabilidade', 'https://cfc.org.br/feed/'),
     ('Brasil de Fato', 'https://www.brasildefato.com.br/feed/'),

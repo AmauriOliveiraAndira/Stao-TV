@@ -1,15 +1,10 @@
 {
-  "updated_at": "2026-10-28T13:12:38.307041+00:00",
+  "updated_at": "2026-10-28T14:05:19.454287+00:00",
   "sources": [
     {
-      "source": "Agência Brasil • Economia",
+      "source": "BBC News Brasil",
       "ok": true,
-      "count": 10
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "ok": true,
-      "count": 10
+      "count": 35
     },
     {
       "source": "Portal Contábeis",
@@ -39,28 +34,20 @@
   ],
   "items": [
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Governo libera R$ 5,2 bilhões para reforçar assistência social e saúde",
-      "summary": "O Ministério do Planejamento e Orçamento autorizou nesta quarta-feira (27) a liberação de crédito suplementar de R$ 5,166 bilhões nos orçamentos fiscal e da Seguridade Social para reforçar despesas de diversos órgãos do Executivo. De acordo com a Portaria nº 485/2026 , os…",
-      "date": "28/10/2026 09:50",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-libera-r-52-bilhoes-para-reforcar-assistencia-social-e-saude",
-      "timestamp": 1793191800.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Chuvas continuam favorecendo região do Matopiba no Nordeste",
-      "summary": "Nesta quarta-feira (28), chove em uma extensa área do Brasil que alcança desde o oeste e sul do Amazonas passando pelo Acre, Rondônia e centro-sul do Pará, também pela região do Maranhão, Tocantins, Piauí e Bahia, chamada de Matopiba, pelo Centro-Oeste do país, até parte do…",
-      "date": "28/10/2026 09:13",
-      "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/chuvas-continuam-favorecendo-regiao-do-matopiba-no-nordeste",
-      "timestamp": 1793189580.0
+      "source": "BBC News Brasil",
+      "title": "Ao menos 64 pessoas morreram e dezenas ficaram feridas em acidente com trem de alta velocidade na Espanha",
+      "summary": "Colisão envolveu um trem de alta velocidade que havia partido de Madri com destino a Sevilha e uma composição de outra empresa que seguia no sentido contrário.",
+      "date": "28/10/2026 10:16",
+      "link": "https://www.bbc.com/portuguese/articles/cmly074jvgglo?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793193361.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "NF-e terá fim da autorização assíncrona em 2027",
-      "summary": "Foto: SumUp / Unsplash · Licença Unsplash Nota Técnica 2023.002 prevê autorização síncrona obrigatória, envio individual de NFC-e e desativação de serviços de inutilização em três estados. Leia mais em…",
-      "date": "28/10/2026 10:00",
-      "link": "https://www.contabeis.com.br/noticias/80412/nf-e-tera-fim-da-autorizacao-assincrona-em-2027/",
-      "timestamp": 1793192402.0
+      "title": "Governo prevê enviar regras do Imposto Seletivo nesta semana",
+      "summary": "Medida provisória deve definir alíquotas do Imposto Seletivo, que incidirá sobre produtos e atividades prejudiciais à saúde ou ao meio ambiente a partir de 2027. Leia mais em https://www.contabeis.com.br/noticias/80419/governo-preve-enviar-regras-do-imposto-seletivo-nesta-semana/",
+      "date": "28/10/2026 11:00",
+      "link": "https://www.contabeis.com.br/noticias/80419/governo-preve-enviar-regras-do-imposto-seletivo-nesta-semana/",
+      "timestamp": 1793196001.0
     },
     {
       "source": "Conselho Federal de Contabilidade",
@@ -72,51 +59,43 @@
     },
     {
       "source": "Brasil de Fato",
-      "title": "PT Paraná cria canal de denúncias de violência política e ameaças",
-      "summary": "Nessa terça-feira (27), o Partido dos Trabalhadores (PT) no Paraná abriu um canal de denúncias de casos de violência política, ameaças e intimidações eleitorais. No Brasil, há uma onda de episódios de agressões praticadas por bolsonaristas desde da vitória de Luiz Inácio Lula…",
-      "date": "28/10/2026 09:18",
-      "link": "https://www.brasildefato.com.br/2026/10/28/pt-parana-cria-canal-de-denuncias-de-violencia-politica-e-ameacas/",
-      "timestamp": 1793189882.0
+      "title": "Um ano do Massacre da Penha e do Alemão: o dever da federalização contra a violência eleitoreira",
+      "summary": "Em 28 de outubro de 2025, o Rio de Janeiro escreveu a página mais sangrenta da história de sua segurança pública. A denominada “Operação Contenção“, deflagrada nos Complexos da Penha e do Alemão, culminou na morte de 122 pessoas, transformando o território em um cenário de…",
+      "date": "28/10/2026 10:07",
+      "link": "https://www.brasildefato.com.br/2026/10/28/um-ano-do-massacre-da-penha-e-do-alemao-o-dever-da-federalizacao-contra-a-violencia-eleitoreira/",
+      "timestamp": 1793192834.0
     },
     {
       "source": "Investing.com Brasil",
-      "title": "Space42 e Viasat firmam parceria com Terrestar para rede de satélites",
+      "title": "Por que as ações do Ensign Group estão disparando hoje?",
       "summary": "",
-      "date": "28/10/2026 12:54 (horário da fonte)",
-      "link": "https://br.investing.com/news/company-news/space42-e-viasat-firmam-parceria-com-terrestar-para-rede-de-satelites-93CH-2105881",
-      "timestamp": 1793192050.0
+      "date": "28/10/2026 13:58 (horário da fonte)",
+      "link": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-do-ensign-group-estao-disparando-hoje-93CH-2106044",
+      "timestamp": 1793195899.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Por que Dilma receberá mais de R$ 17 mil por mês do governo?",
-      "summary": "Indenização foi publicada no Diário Oficial da União nessa terça-feira (27), através do Ministério dos Direitos Humanos",
-      "date": "28/10/2026 09:49",
-      "link": "https://jovempan.com.br/politica/por-que-dilma-recebera-mais-de-r-17-mil-por-mes-do-governo/",
-      "timestamp": 1793191794.0
+      "title": "Há 52 anos, o lateral esquerdo Everaldo foi o primeiro tricampeão a falecer",
+      "summary": "O jogador, que marcou época no Grêmio, era discreto e disciplinado taticamente",
+      "date": "28/10/2026 10:51",
+      "link": "https://jovempan.com.br/colunistas/thiago-uberreich/ha-52-anos-o-lateral-esquerdo-everaldo-foi-o-primeiro-tricampeao-a-falecer/",
+      "timestamp": 1793195499.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Dólar cai quase 1%, e Ibovespa recua após tombo eleitoral",
-      "summary": "O mercado financeiro apresentou movimentos de acomodação nesta terça-feira (27), após a forte reação da véspera à reeleição do presidente Luiz Inácio Lula da Silva. O dólar fechou em queda próxima de 1% e ficou abaixo de R$ 5,35. A bolsa recuou cerca de 0,5%. A sessão foi…",
-      "date": "27/10/2026 18:51",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-quase-1-e-ibovespa-recua-apos-tombo-eleitoral",
-      "timestamp": 1793137860.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "STF nega ter ordenado buscas em endereços de Flávio Bolsonaro",
-      "summary": "O Supremo Tribunal Federal (STF) divulgou nesta quarta-feira (28) nota em que nega a existência de operação de busca e apreensão da Polícia Federal (PF) tendo como alvo endereços ligados ao senador Flávio Bolsonaro (PL-RJ), recém-derrotado na eleição para a Presidência da…",
-      "date": "28/10/2026 09:08",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/stf-nega-ter-ordenado-buscas-em-enderecos-de-flavio-bolsonaro",
-      "timestamp": 1793189280.0
+      "source": "BBC News Brasil",
+      "title": "O que se sabe sobre saída de Flávio Bolsonaro do Brasil",
+      "summary": "Derrotado nas eleições, senador saiu do Brasil após decisão do STF que o proibia de deixar o país.",
+      "date": "28/10/2026 09:06",
+      "link": "https://www.bbc.com/portuguese/articles/c617k8y8zw1lo?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793189174.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "Split payment começa a ser implementado em 2027; veja o cronograma",
-      "summary": "Reforma tributária prevê duas etapas de lançamento do split payment em 2027, com testes prévios e uso inicialmente facultativo nas operações entre empresas. Leia mais em https://www.contabeis.com.br/noticias/80411/split-payment-comeca-a-ser-implementado-em-2027-veja-o-cronograma/",
-      "date": "28/10/2026 09:30",
-      "link": "https://www.contabeis.com.br/noticias/80411/split-payment-comeca-a-ser-implementado-em-2027-veja-o-cronograma/",
-      "timestamp": 1793190601.0
+      "title": "Simples tem mais de 401 mil pedidos negados pela Receita",
+      "summary": "Mais de 60% dos pedidos de adesão ao Simples Nacional foram indeferidos até 15 de outubro. Empresas devem regularizar pendências até 30 de outubro para tentar ingressar no regime em 2027. Leia mais em…",
+      "date": "28/10/2026 10:45",
+      "link": "https://www.contabeis.com.br/noticias/80414/simples-tem-mais-de-401-mil-pedidos-negados-pela-receita/",
+      "timestamp": 1793195102.0
     },
     {
       "source": "Conselho Federal de Contabilidade",
@@ -128,51 +107,43 @@
     },
     {
       "source": "Brasil de Fato",
-      "title": "Colisão de trens de alta velocidade na Espanha deixa ao menos 30 mortos",
-      "summary": "A colisão entre dois trens de alta velocidade na manhã desta quarta-feira (28), perto da estação de Urda, na província de Toledo, a cerca de 150 quilômetros ao sul de Madri, deixou pelo menos 30 mortos, segundo o presidente da comunidade autônoma de Castilla-La Mancha,…",
-      "date": "28/10/2026 09:15",
-      "link": "https://www.brasildefato.com.br/2026/10/28/colisao-de-trens-de-alta-velocidade-na-espanha-deixa-ao-menos-30-mortos/",
-      "timestamp": 1793189706.0
+      "title": "Ameaças e mensagens de ódio circulam em grupo atribuído a estudantes de Agronomia da UFSM",
+      "summary": "Entre as conversas um dos participantes chega a se oferecer para “matar” petistas e integrantes do MST Fonte",
+      "date": "28/10/2026 10:04",
+      "link": "https://www.brasildefato.com.br/2026/10/28/ameacas-e-mensagens-de-odio-circulam-em-grupo-atribuido-a-estudantes-de-agronomia-da-ufsm/",
+      "timestamp": 1793192649.0
     },
     {
       "source": "Investing.com Brasil",
-      "title": "Scripps eleva previsão de receita política para 2026 e corta 850 empregos",
+      "title": "Lucro operacional da Stellantis aumenta à medida que cortes de custos ganham força",
       "summary": "",
-      "date": "28/10/2026 12:53 (horário da fonte)",
-      "link": "https://br.investing.com/news/company-news/scripps-eleva-previsao-de-receita-politica-para-2026-e-corta-850-empregos-93CH-2105880",
-      "timestamp": 1793192022.0
+      "date": "28/10/2026 13:56 (horário da fonte)",
+      "link": "https://br.investing.com/news/stock-market-news/lucro-operacional-da-stellantis-aumenta-a-medida-que-cortes-de-custos-ganham-forca-2106042",
+      "timestamp": 1793195797.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Dom de Iludir: qual é a história da nova série da Netflix?",
-      "summary": "Estrelada por Marieta Severo, Alice Wegmann e Nanda Costta, produção brasileira aposta em segredos, golpes e conflitos familiares",
-      "date": "28/10/2026 09:47",
-      "link": "https://jovempan.com.br/entretenimento/tv-e-cinema/dom-de-iludir-qual-e-a-historia-da-nova-serie-da-netflix/",
-      "timestamp": 1793191674.0
+      "title": "Um ano após megaoperação com 122 mortos, 33 alvos seguem foragidos no RJ",
+      "summary": "Ação nos complexos do Alemão e da Penha foi a mais letal da história das forças de segurança do país",
+      "date": "28/10/2026 10:36",
+      "link": "https://jovempan.com.br/brasil/um-ano-apos-megaoperacao-com-122-mortos-33-alvos-seguem-foragidos-no-rj/",
+      "timestamp": 1793194609.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Número de superendividados no Brasil cresceu 75% em cinco anos, diz BC",
-      "summary": "O número de brasileiros em situação de endividamento de risco chegou a 20,3 milhões em junho de 2026, alta de 75% em cinco anos, informou nesta terça-feira (27) o Relatório de Estabiliadde Financeira do Banco Central (BC) . O contingente representa 17% dos devedores do…",
-      "date": "27/10/2026 17:58",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc",
-      "timestamp": 1793134680.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Avião com Flávio Bolsonaro e família segue para Miami",
-      "summary": "A aeronave que deixou o Equador com o senador Flávio Bolsonaro (PL-RJ) e a família a bordo segue, neste momento, para o aeroporto de Miami, nos Estados Unidos. De acordo com o site de monitoramento de voos em tempo real Flight Aware, o avião deve pousar em solo estadunidense…",
-      "date": "28/10/2026 09:03",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/aviao-com-flavio-bolsonaro-e-familia-segue-para-miami",
-      "timestamp": 1793188980.0
+      "source": "BBC News Brasil",
+      "title": "Relação entre Trump e Lula pode azedar mais?",
+      "summary": "Segundo funcionário de alto escalão do governo Trump, Departamento de Estado vai oferecer visto a Flávio Bolsonaro e família.",
+      "date": "28/10/2026 09:05",
+      "link": "https://www.bbc.com/portuguese/articles/cm3vq700565wo?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793189141.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "NFS-e nacional no Simples será obrigatória a partir de 1º de novembro",
-      "summary": "ME e EPP do Simples que prestam serviços sujeitos à NFS-e devem usar o Emissor Nacional a partir de novembro. Veja como preparar a emissão. Leia mais em https://www.contabeis.com.br/noticias/80408/nfs-e-nacional-no-simples-sera-obrigatoria-a-partir-de-1o-de-novembro/",
-      "date": "28/10/2026 09:15",
-      "link": "https://www.contabeis.com.br/noticias/80408/nfs-e-nacional-no-simples-sera-obrigatoria-a-partir-de-1o-de-novembro/",
-      "timestamp": 1793189702.0
+      "title": "Receita define tributação do deságio em créditos de ICMS",
+      "summary": "Foto: Kelly Sikkema / Unsplash · Licença Unsplash Solução de Consulta Cosit nº 165/2026 determina que o deságio na compra de créditos de ICMS seja tributado pelo IRPJ e pela CSLL na aquisição definitiva. Leia mais em…",
+      "date": "28/10/2026 10:30",
+      "link": "https://www.contabeis.com.br/noticias/80416/receita-define-tributacao-do-desagio-em-creditos-de-icms/",
+      "timestamp": 1793194201.0
     },
     {
       "source": "Conselho Federal de Contabilidade",
@@ -184,51 +155,43 @@
     },
     {
       "source": "Brasil de Fato",
-      "title": "ONU vota pela 34ª vez fim do bloqueio a Cuba em meio à intimidação dos EUA e endurecimento de sanções",
-      "summary": "Países denunciam o endurecimento das medidas de Washington contra a ilha e seus efeitos econômicos e humanitários Fonte",
-      "date": "28/10/2026 08:53",
-      "link": "https://www.brasildefato.com.br/2026/10/28/onu-vota-pela-34a-vez-fim-do-bloqueio-a-cuba-em-meio-a-intimidacao-dos-eua-e-endurecimento-de-sancoes/",
-      "timestamp": 1793188401.0
+      "title": "PT Paraná cria canal de denúncias de violência política e ameaças",
+      "summary": "Nessa terça-feira (27), o Partido dos Trabalhadores (PT) no Paraná abriu um canal de denúncias de casos de violência política, ameaças e intimidações eleitorais. No Brasil, há uma onda de episódios de agressões praticadas por bolsonaristas desde da vitória de Luiz Inácio Lula…",
+      "date": "28/10/2026 09:18",
+      "link": "https://www.brasildefato.com.br/2026/10/28/pt-parana-cria-canal-de-denuncias-de-violencia-politica-e-ameacas/",
+      "timestamp": 1793189882.0
     },
     {
       "source": "Investing.com Brasil",
-      "title": "HBT Financial declara dividendo trimestral de US$ 0,25 por ação",
+      "title": "Por que as ações da Brinker International estão disparando hoje?",
       "summary": "",
-      "date": "28/10/2026 12:53 (horário da fonte)",
-      "link": "https://br.investing.com/news/sec-filings/hbt-financial-declara-dividendo-trimestral-de-us-025-por-acao-93CH-2105879",
-      "timestamp": 1793192021.0
+      "date": "28/10/2026 13:56 (horário da fonte)",
+      "link": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-brinker-international-estao-disparando-hoje-93CH-2106039",
+      "timestamp": 1793195778.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Direita aguarda desfecho de fuga de Flávio Bolsonaro para reorganizar oposição",
-      "summary": "Aliados esperavam discutir estratégias após derrota eleitoral, mas dizem que saída do senador do país mudou os planos e paralisou articulações em diferentes níveis",
-      "date": "28/10/2026 09:20",
-      "link": "https://jovempan.com.br/colunistas/beatriz-manfredini/direita-aguarda-desfecho-de-fuga-de-flavio-bolsonaro-para-reorganizar-oposicao/",
-      "timestamp": 1793190036.0
+      "title": "Flávio Bolsonaro chega aos EUA com a família após fugir do Brasil pela Argentina",
+      "summary": "Senador desembarcou em Miami após escala no Equador; viagem ocorreu depois de decisão do STF que o proibiu de deixar o país",
+      "date": "28/10/2026 10:27",
+      "link": "https://jovempan.com.br/politica/aeronave-em-que-estaria-flavio-e-familia-pousa-em-miami-nos-eua/",
+      "timestamp": 1793194074.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Inep divulga local de provas do Enem; candidato pode conferir no site",
-      "summary": "Os participantes do Exame Nacional do Ensino Médio (Enem) 2026 já podem conferir os locais onde farão as prova nos domingos 8 e 15 de novembro. O Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) disponibilizou, nesta terça-feira (27), o Cartão de…",
-      "date": "27/10/2026 13:41",
-      "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-10/inep-divulga-local-de-provas-do-enem-candidato-pode-conferir-no-site",
-      "timestamp": 1793119260.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Pelo menos 30 pessoas morrem na Espanha após colisão entre dois trens",
-      "summary": "Pelo menos 30 pessoas morreram quando dois trens de alta velocidade colidiram na Espanha nesta quarta-feira (28), o segundo acidente fatal em menos de um ano na linha que liga Madri à região da Andaluzia, no sul do país, informaram autoridades regionais. Imagens da emissora…",
-      "date": "28/10/2026 08:27",
-      "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/pelo-menos-30-pessoas-morrem-na-espanha-apos-colisao-entre-dois-trens",
-      "timestamp": 1793186820.0
+      "source": "BBC News Brasil",
+      "title": "O mapa que revela avanço generalizado de Lula no 2º turno: petista só 'piorou' em quatro de 5.571 municípios",
+      "summary": "Mapas, que comparam desempenho de candidatos em municípios e Estados, dão uma boa ideia de como ocorreu a 'virada' do 1º para o 2º turno.",
+      "date": "28/10/2026 09:05",
+      "link": "https://www.bbc.com/portuguese/articles/crgqwgz43ppxo?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793189119.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "Fisco adia implantação de notas técnicas da NF-e, NFC-e e CT-e",
-      "summary": "Encat altera datas de produção de notas técnicas da NF-e e NFC-e para novembro e transfere implantação da NT do CT-e para dezembro. Leia mais em https://www.contabeis.com.br/noticias/80407/fisco-adia-implantacao-de-notas-tecnicas-da-nf-e-nfc-e-e-ct-e/",
-      "date": "28/10/2026 09:00",
-      "link": "https://www.contabeis.com.br/noticias/80407/fisco-adia-implantacao-de-notas-tecnicas-da-nf-e-nfc-e-e-ct-e/",
-      "timestamp": 1793188802.0
+      "title": "PGFN alerta para falha no débito automático de parcelas de outubro",
+      "summary": "Atraso no processamento pode afetar pagamentos com vencimento em 30 de outubro. Veja como consultar o extrato bancário e emitir a guia manualmente. Leia mais em https://www.contabeis.com.br/noticias/80413/pgfn-alerta-para-falha-no-debito-automatico-de-parcelas-de-outubro/",
+      "date": "28/10/2026 10:15",
+      "link": "https://www.contabeis.com.br/noticias/80413/pgfn-alerta-para-falha-no-debito-automatico-de-parcelas-de-outubro/",
+      "timestamp": 1793193301.0
     },
     {
       "source": "Conselho Federal de Contabilidade",
@@ -240,51 +203,43 @@
     },
     {
       "source": "Brasil de Fato",
-      "title": "Flávio Bolsonaro fugiu pela Argentina na noite de terça (27) e fez escala no Equador antes de seguir para os EUA",
-      "summary": "O candidato derrotado na eleição presidencial, Flávio Bolsonaro (PL), fugiu do Brasil pela fronteira com a Argentina na noite de terça-feira (27) e, depois de uma escala no Equador, segue para os Estados Unidos nesta quarta-feira (28). O bolsonarista é investigado por lavagem…",
-      "date": "28/10/2026 07:58",
-      "link": "https://www.brasildefato.com.br/2026/10/28/flavio-bolsonaro-fugiu-pela-argentina-na-noite-de-terca-27-e-fez-escala-no-equador-antes-de-seguir-para-os-eua/",
-      "timestamp": 1793185099.0
+      "title": "Colisão de trens de alta velocidade na Espanha deixa ao menos 30 mortos",
+      "summary": "A colisão entre dois trens de alta velocidade na manhã desta quarta-feira (28), perto da estação de Urda, na província de Toledo, a cerca de 150 quilômetros ao sul de Madri, deixou pelo menos 30 mortos, segundo o presidente da comunidade autônoma de Castilla-La Mancha,…",
+      "date": "28/10/2026 09:15",
+      "link": "https://www.brasildefato.com.br/2026/10/28/colisao-de-trens-de-alta-velocidade-na-espanha-deixa-ao-menos-30-mortos/",
+      "timestamp": 1793189706.0
     },
     {
       "source": "Investing.com Brasil",
-      "title": "AEGIS Hedging nomeia veterano do setor de petróleo e gás Jay Graham para seu conselho",
+      "title": "Rússia recorre à rota ártica da Segunda Guerra Mundial para exportar grãos",
       "summary": "",
-      "date": "28/10/2026 12:53 (horário da fonte)",
-      "link": "https://br.investing.com/news/company-news/aegis-hedging-nomeia-veterano-do-setor-de-petroleo-e-gas-jay-graham-para-seu-conselho-93CH-2105878",
-      "timestamp": 1793192019.0
+      "date": "28/10/2026 13:56 (horário da fonte)",
+      "link": "https://br.investing.com/news/commodities-news/russia-recorre-a-rota-artica-da-segunda-guerra-mundial-para-exportar-graos-2106040",
+      "timestamp": 1793195778.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Canetas: por que os glúteos perdem volume após o emagrecimento",
-      "summary": "A médica Ingrid Campos explica por que a perda rápida de peso pode mudar o contorno dos glúteos e quais cuidados ajudam a preservar a musculatura e tratar a flacidez",
-      "date": "28/10/2026 09:14",
-      "link": "https://jovempan.com.br/saude/canetas-por-que-os-gluteos-perdem-volume-apos-o-emagrecimento/",
-      "timestamp": 1793189675.0
+      "title": "Por que Dilma receberá mais de R$ 17 mil por mês do governo?",
+      "summary": "Indenização foi publicada no Diário Oficial da União nessa terça-feira (27), através do Ministério dos Direitos Humanos",
+      "date": "28/10/2026 09:49",
+      "link": "https://jovempan.com.br/politica/por-que-dilma-recebera-mais-de-r-17-mil-por-mes-do-governo/",
+      "timestamp": 1793191794.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Governo buscará cumprir meta fiscal com diálogo, diz Durigan",
-      "summary": "O ministro da Fazenda, Dario Durigan, assegurou, nesta terça-feira (27), em Brasília, que o governo federal vai discutir com agentes do mercado financeiro e do setor privado em geral medidas de ajuste que favoreçam o cumprimento da meta fiscal. “Nosso compromisso é com a…",
-      "date": "27/10/2026 13:04",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan",
-      "timestamp": 1793117040.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Polícia faz ação contra de exploração sexual de adolescentes no Rio",
-      "summary": "A Polícia Civil faz nesta quarta-feira (28) uma operação para combater a exploração sexual de adolescentes no Rio de Janeiro . Estão sendo cumpridos mandados de prisão e de busca e apreensão contra suspeitos de envolvimento em uma rede criminosa que produzia vídeos de…",
-      "date": "28/10/2026 07:38",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/policia-faz-acao-contra-de-exploracao-sexual-de-adolescentes-no-rio",
-      "timestamp": 1793183880.0
+      "source": "BBC News Brasil",
+      "title": "Por que Flávio Bolsonaro foi intimado a entregar os passaportes?",
+      "summary": "Decisão foi dada em processo envolvendo o advogado Willer Tomaz e suspeitas de lavagem de dinheiro. Senador afirmou nunca ter pensado em deixar o país.",
+      "date": "28/10/2026 09:01",
+      "link": "https://www.bbc.com/portuguese/articles/ck054vvj66g5o?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793188881.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "CBS pode favorecer terceirização e agências em 2027",
-      "summary": "Com a CBS em vigor em 2027, créditos tributários podem mudar a escolha entre equipe própria, agências e fornecedores de serviços. Leia mais em https://www.contabeis.com.br/noticias/80355/cbs-pode-favorecer-terceirizacao-e-agencias-em-2027/",
-      "date": "27/10/2026 20:00",
-      "link": "https://www.contabeis.com.br/noticias/80355/cbs-pode-favorecer-terceirizacao-e-agencias-em-2027/",
-      "timestamp": 1793142002.0
+      "title": "NF-e terá fim da autorização assíncrona em 2027",
+      "summary": "Foto: SumUp / Unsplash · Licença Unsplash Nota Técnica 2023.002 prevê autorização síncrona obrigatória, envio individual de NFC-e e desativação de serviços de inutilização em três estados. Leia mais em…",
+      "date": "28/10/2026 10:00",
+      "link": "https://www.contabeis.com.br/noticias/80412/nf-e-tera-fim-da-autorizacao-assincrona-em-2027/",
+      "timestamp": 1793192402.0
     },
     {
       "source": "Conselho Federal de Contabilidade",
@@ -296,51 +251,43 @@
     },
     {
       "source": "Brasil de Fato",
-      "title": "Cerca de 390 mil microempreendedores pernambucanos podem ser beneficiados pelo novo programa do governo Lula",
-      "summary": "Mais da metade dos MEIs no estado estão com boletos atrasados; 64% gostariam de prestar serviços ao poder público Fonte",
-      "date": "28/10/2026 07:20",
-      "link": "https://www.brasildefato.com.br/2026/10/28/cerca-de-390-mil-microempreendedores-pernambucanos-podem-ser-beneficiados-pelo-novo-programa-do-governo-lula/",
-      "timestamp": 1793182800.0
+      "title": "ONU vota fim do bloqueio a Cuba pela 34ª vez em meio à intimidação dos EUA e endurecimento de sanções",
+      "summary": "Países denunciam o endurecimento das medidas de Washington contra a ilha e seus efeitos econômicos e humanitários Fonte",
+      "date": "28/10/2026 08:53",
+      "link": "https://www.brasildefato.com.br/2026/10/28/onu-vota-pela-34a-vez-fim-do-bloqueio-a-cuba-em-meio-a-intimidacao-dos-eua-e-endurecimento-de-sancoes/",
+      "timestamp": 1793188401.0
     },
     {
       "source": "Investing.com Brasil",
-      "title": "GE Vernova supera previsões do 3º tri de 2026 com pedidos e geração de caixa",
+      "title": "Ação da Bicara Therapeutics atinge mínima de 52 semanas",
       "summary": "",
-      "date": "28/10/2026 12:53 (horário da fonte)",
-      "link": "https://br.investing.com/news/transcripts/ge-vernova-supera-previsoes-do-3o-tri-de-2026-com-pedidos-e-geracao-de-caixa-93CH-2105877",
-      "timestamp": 1793192002.0
+      "date": "28/10/2026 13:56 (horário da fonte)",
+      "link": "https://br.investing.com/news/company-news/acao-da-bicara-therapeutics-atinge-minima-de-52-semanas-93CH-2106038",
+      "timestamp": 1793195774.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Senival Moura, vereador do PT, é preso em operação contra presença do PCC no transporte de SP",
-      "summary": "Parlamentar estava solto desde 5 de agosto, após decisão do Tribunal de Justiça de São Paulo. Ação conjunta do DEIC e do GAECO cumpriu cinco dos sete mandados de prisão preventiva expedidos pela Justiça",
-      "date": "28/10/2026 09:01",
-      "link": "https://jovempan.com.br/colunistas/david-de-tarso/senival-moura-vereador-do-pt-e-preso-em-operacao-contra-presenca-do-pcc-no-transporte-de-sp/",
-      "timestamp": 1793188860.0
+      "title": "Dom de Iludir: qual é a história da nova série da Netflix?",
+      "summary": "Estrelada por Marieta Severo, Alice Wegmann e Nanda Costta, produção brasileira aposta em segredos, golpes e conflitos familiares",
+      "date": "28/10/2026 09:47",
+      "link": "https://jovempan.com.br/entretenimento/tv-e-cinema/dom-de-iludir-qual-e-a-historia-da-nova-serie-da-netflix/",
+      "timestamp": 1793191674.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Governo prorroga por um mês subvenção de R$ 2,12 ao diesel",
-      "summary": "O governo federal informou nesta terça-feira (27) que renovará por mais um mês a subvenção de R$ 2,12 por litro ao óleo diesel. A medida será formalizada por meio de portaria a ser publicada no Diário Oficial da União . A renovação já havia sido sinalizada mais cedo pelo…",
-      "date": "27/10/2026 12:41",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel",
-      "timestamp": 1793115660.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Movimentos sociais no Rio lembram vítimas da Operação Contenção",
-      "summary": "Nesta quarta-feira (28), movimentos sociais, familiares e moradores fazem manifestação na Praça São Lucas, na Penha, zona norte do Rio. Organizado pela Frente Penha, a iniciativa marca um ano da Operação Contenção nos complexos da Penha e do Alemão, a mais letal do país, que…",
-      "date": "28/10/2026 07:20",
-      "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/movimentos-sociais-no-rio-lembram-vitimas-da-operacao-contencao",
-      "timestamp": 1793182800.0
+      "source": "BBC News Brasil",
+      "title": "Lula critica Flávio, e aliados falam em 'perseguição'",
+      "summary": "Figuras políticas proeminentes manifestaram-se sobre o paradeiro do senador. Confira as reações.",
+      "date": "28/10/2026 08:56",
+      "link": "https://www.bbc.com/portuguese/articles/cm3vq7q59ne6o?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793188612.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "PIX supera 1 bilhão de chaves cadastradas em 2026",
-      "summary": "PIX supera 1 bilhão de chaves em 2026, com novos recursos como pagamentos automáticos, aproximação e mecanismos de segurança contra fraudes. Leia mais em https://www.contabeis.com.br/noticias/80323/pix-supera-1-bilhao-de-chaves-cadastradas-em-2026/",
-      "date": "27/10/2026 19:45",
-      "link": "https://www.contabeis.com.br/noticias/80323/pix-supera-1-bilhao-de-chaves-cadastradas-em-2026/",
-      "timestamp": 1793141102.0
+      "title": "Split payment começa a ser implementado em 2027; veja o cronograma",
+      "summary": "Reforma tributária prevê duas etapas de lançamento do split payment em 2027, com testes prévios e uso inicialmente facultativo nas operações entre empresas. Leia mais em https://www.contabeis.com.br/noticias/80411/split-payment-comeca-a-ser-implementado-em-2027-veja-o-cronograma/",
+      "date": "28/10/2026 09:30",
+      "link": "https://www.contabeis.com.br/noticias/80411/split-payment-comeca-a-ser-implementado-em-2027-veja-o-cronograma/",
+      "timestamp": 1793190601.0
     },
     {
       "source": "Conselho Federal de Contabilidade",
@@ -352,51 +299,43 @@
     },
     {
       "source": "Brasil de Fato",
-      "title": "Feriado prolongado no DF: veja o que abre e fecha a partir desta sexta-feira (30)",
-      "summary": "O Distrito Federal terá mudanças no funcionamento dos serviços públicos a partir desta sexta-feira (30), quando será celebrado o Dia do Servidor Público. A data, comemorada originalmente em 28 de outubro, foi transferida para sexta-feira por meio do Decreto nº 49.585,…",
-      "date": "28/10/2026 07:00",
-      "link": "https://www.brasildefato.com.br/2026/10/28/feriado-prolongado-no-df-veja-o-que-abre-e-fecha-a-partir-desta-sexta-feira-30/",
-      "timestamp": 1793181600.0
+      "title": "Flávio Bolsonaro fugiu pela Argentina na noite de terça (27) e fez escala no Equador antes de seguir para os EUA",
+      "summary": "O candidato derrotado na eleição presidencial, Flávio Bolsonaro (PL), fugiu do Brasil pela fronteira com a Argentina na noite de terça-feira (27) e, depois de uma escala no Equador, segue para os Estados Unidos nesta quarta-feira (28). O bolsonarista é investigado por lavagem…",
+      "date": "28/10/2026 07:58",
+      "link": "https://www.brasildefato.com.br/2026/10/28/flavio-bolsonaro-fugiu-pela-argentina-na-noite-de-terca-27-e-fez-escala-no-equador-antes-de-seguir-para-os-eua/",
+      "timestamp": 1793185099.0
     },
     {
       "source": "Investing.com Brasil",
-      "title": "Healey reduz margem fiscal do Reino Unido para £15 bi em meio à guerra no Irã",
+      "title": "Wolfe Research reitera avaliação da SK Hynix com base na precificação de HBM",
       "summary": "",
-      "date": "28/10/2026 12:50 (horário da fonte)",
-      "link": "https://br.investing.com/news/economy-news/healey-reduz-margem-fiscal-do-reino-unido-para-15-bi-em-meio-a-guerra-no-ira-2105876",
-      "timestamp": 1793191809.0
+      "date": "28/10/2026 13:56 (horário da fonte)",
+      "link": "https://br.investing.com/news/analyst-ratings/wolfe-research-reitera-avaliacao-da-sk-hynix-com-base-na-precificacao-de-hbm-93CH-2106037",
+      "timestamp": 1793195761.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Falta de navios atrasa entrega de carros elétricos e expõe limites da expansão das montadoras chinesas",
-      "summary": "Geely e BYD enfrentam restrições no abastecimento do mercado brasileiro; caso mostra como a capacidade logística pode limitar as vendas mesmo quando há interesse dos consumidores",
-      "date": "28/10/2026 09:00",
-      "link": "https://jovempan.com.br/economia/negocios/falta-de-navios-atrasa-entrega-de-carros-eletricos-e-expoe-limites-da-expansao-das-montadoras-chinesas/",
-      "timestamp": 1793188800.0
+      "title": "Direita aguarda desfecho de fuga de Flávio Bolsonaro para reorganizar oposição",
+      "summary": "Aliados esperavam discutir estratégias após derrota eleitoral, mas dizem que saída do senador do país mudou os planos e paralisou articulações em diferentes níveis",
+      "date": "28/10/2026 09:20",
+      "link": "https://jovempan.com.br/colunistas/beatriz-manfredini/direita-aguarda-desfecho-de-fuga-de-flavio-bolsonaro-para-reorganizar-oposicao/",
+      "timestamp": 1793190036.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Para conter oscilações, Tesouro anuncia nova recompra de títulos",
-      "summary": "O Tesouro Nacional anunciou nesta terça-feira (27) que vai recomprar Notas do Tesouro Nacional Série B (NTN-B) com vencimentos em 15/08/2030, 15/05/2035, 15/08/2040 e 15/05/2045. O edital com as condições do leilão de recompra será divulgado no site da instituição. A medida…",
-      "date": "27/10/2026 12:36",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/para-conter-oscilacoes-tesouro-anuncia-nova-recompra-de-titulos",
-      "timestamp": 1793115360.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Flávio Bolsonaro cruza fronteira argentina e segue para o Equador",
-      "summary": "O senador Flávio Bolsonaro (PL), sua esposa Fernanda Antunes Figueira Bolsonaro e suas duas filhas, Carolina Figueira Bolsonaro e Luiza Figueira Bolsonaro, entraram na Argentina na noite dessa terça-feira (27). A informação foi confirmada pela Direção Nacional de Migrações da…",
-      "date": "28/10/2026 06:00",
-      "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/flavio-bolsonaro-cruza-fronteira-argentina-e-segue-para-o-equador",
-      "timestamp": 1793178000.0
+      "source": "BBC News Brasil",
+      "title": "Senador pode ser considerado foragido?",
+      "summary": "Senador descumpriu ordem de Moraes para entregar seus passaportes e deixou o Brasil.",
+      "date": "28/10/2026 08:49",
+      "link": "https://www.bbc.com/portuguese/articles/c875peypvy6eo?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793188187.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "Reforma Tributária: atraso amplia riscos às empresas",
-      "summary": "Atrasos na adaptação à Reforma Tributária podem afetar a emissão de documentos fiscais, o faturamento e a continuidade das operações. Leia mais em https://www.contabeis.com.br/noticias/80364/reforma-tributaria-atraso-amplia-riscos-as-empresas/",
-      "date": "27/10/2026 19:30",
-      "link": "https://www.contabeis.com.br/noticias/80364/reforma-tributaria-atraso-amplia-riscos-as-empresas/",
-      "timestamp": 1793140202.0
+      "title": "NFS-e nacional no Simples será obrigatória a partir de 1º de novembro",
+      "summary": "ME e EPP do Simples que prestam serviços sujeitos à NFS-e devem usar o Emissor Nacional a partir de novembro. Veja como preparar a emissão. Leia mais em https://www.contabeis.com.br/noticias/80408/nfs-e-nacional-no-simples-sera-obrigatoria-a-partir-de-1o-de-novembro/",
+      "date": "28/10/2026 09:15",
+      "link": "https://www.contabeis.com.br/noticias/80408/nfs-e-nacional-no-simples-sera-obrigatoria-a-partir-de-1o-de-novembro/",
+      "timestamp": 1793189702.0
     },
     {
       "source": "Conselho Federal de Contabilidade",
@@ -408,51 +347,43 @@
     },
     {
       "source": "Brasil de Fato",
-      "title": "Saiba como votaram os moradores de favelas, terras indígenas e quilombos",
-      "summary": "A maioria dos moradores das favelas, quilombos e terras indígenas votou pela reeleição do presidente Luiz Inácio Lula da Silva (PT), segundo levantamento da Ipse Global, empresa especializada em pesquisas e análises de opinião. O melhor resultado do petista foi entre os…",
-      "date": "28/10/2026 06:00",
-      "link": "https://www.brasildefato.com.br/2026/10/28/saiba-como-votaram-os-moradores-de-favelas-terras-indigenas-e-quilombos/",
-      "timestamp": 1793178000.0
+      "title": "Cerca de 390 mil microempreendedores pernambucanos podem ser beneficiados pelo novo programa do governo Lula",
+      "summary": "Mais da metade dos MEIs no estado estão com boletos atrasados; 64% gostariam de prestar serviços ao poder público Fonte",
+      "date": "28/10/2026 07:20",
+      "link": "https://www.brasildefato.com.br/2026/10/28/cerca-de-390-mil-microempreendedores-pernambucanos-podem-ser-beneficiados-pelo-novo-programa-do-governo-lula/",
+      "timestamp": 1793182800.0
     },
     {
       "source": "Investing.com Brasil",
-      "title": "Evogene mira doença aguda enxerto-versus-hospedeiro em novo programa de medicamentos",
+      "title": "Ações da Genmab disparam 16% após resultados positivos em ensaio contra câncer",
       "summary": "",
-      "date": "28/10/2026 12:46 (horário da fonte)",
-      "link": "https://br.investing.com/news/company-news/evogene-mira-doenca-aguda-enxertoversushospedeiro-em-novo-programa-de-medicamentos-93CH-2105872",
-      "timestamp": 1793191563.0
+      "date": "28/10/2026 13:54 (horário da fonte)",
+      "link": "https://br.investing.com/news/stock-market-news/acoes-da-genmab-disparam-16-apos-resultados-positivos-em-ensaio-contra-cancer-2106036",
+      "timestamp": 1793195687.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Temporais avançam pelo Brasil e chuva deve se intensificar no Sul e Sudeste",
-      "summary": "Inmet prevê tempestades em diferentes regiões nesta quarta-feira (28); São Paulo e Curitiba seguem com temperaturas baixas",
-      "date": "28/10/2026 08:58",
-      "link": "https://jovempan.com.br/brasil/temporais-avancam-pelo-brasil-e-chuva-deve-se-intensificar-no-sul-e-sudeste/",
-      "timestamp": 1793188697.0
+      "title": "Canetas: por que os glúteos perdem volume após o emagrecimento",
+      "summary": "A médica Ingrid Campos explica por que a perda rápida de peso pode mudar o contorno dos glúteos e quais cuidados ajudam a preservar a musculatura e tratar a flacidez",
+      "date": "28/10/2026 09:14",
+      "link": "https://jovempan.com.br/saude/canetas-por-que-os-gluteos-perdem-volume-apos-o-emagrecimento/",
+      "timestamp": 1793189675.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Governo vai enviar MP do Imposto Seletivo e renova subvenção ao diesel",
-      "summary": "O ministro da Fazenda, Dario Durigan, afirmou que o governo federal deve enviar ao Congresso Nacional, nos próximos dias, uma Medida Provisória (MP) estabelecendo as alíquotas do chamado Imposto Seletivo (IS). Também conhecido como Imposto do Pecado, o tributo foi aprovado…",
-      "date": "27/10/2026 11:33",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-enviara-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel",
-      "timestamp": 1793111580.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Mega-Sena acumula novamente e prêmio vai a R$ 320 milhões",
-      "summary": "O Concurso 3.076 da Mega-Sena, sorteado nesta terça-feira (27), não teve ganhador. O prêmio acumulou novamente e está estimado em R$ 320 milhões para a nova rodada. Os números sorteados são: 06 - 30 - 32 - 38 - 49 - 57. Notícias relacionadas: Mega-Sena terá semana especial…",
-      "date": "27/10/2026 21:53",
-      "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-novamente-e-premio-vai-r-320-milhoes",
-      "timestamp": 1793148780.0
+      "source": "BBC News Brasil",
+      "title": "Israel vai às urnas, e legado do 7 de outubro pode definir se Netanyahu terá seu sétimo mandato",
+      "summary": "Muitos temem que nenhum dos principais blocos políticos consiga cadeiras suficientes para formar maioria, o que significa que semanas ou meses de disputas políticas podem estar por vir.",
+      "date": "27/10/2026 23:20",
+      "link": "https://www.bbc.com/portuguese/articles/cm4g1qpnkv11o?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793154036.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "Perdão de dívidas pode beneficiar bares e restaurantes",
-      "summary": "Abrasel avalia proposta de perdão de dívidas para empresas de eventos, bares e restaurantes e defende que o programa inclua negócios do Simples Nacional . Leia mais em https://www.contabeis.com.br/noticias/80370/perdao-de-dividas-pode-beneficiar-bares-e-restaurantes/",
-      "date": "27/10/2026 19:15",
-      "link": "https://www.contabeis.com.br/noticias/80370/perdao-de-dividas-pode-beneficiar-bares-e-restaurantes/",
-      "timestamp": 1793139301.0
+      "title": "Fisco adia implantação de notas técnicas da NF-e, NFC-e e CT-e",
+      "summary": "Encat altera datas de produção de notas técnicas da NF-e e NFC-e para novembro e transfere implantação da NT do CT-e para dezembro. Leia mais em https://www.contabeis.com.br/noticias/80407/fisco-adia-implantacao-de-notas-tecnicas-da-nf-e-nfc-e-e-ct-e/",
+      "date": "28/10/2026 09:00",
+      "link": "https://www.contabeis.com.br/noticias/80407/fisco-adia-implantacao-de-notas-tecnicas-da-nf-e-nfc-e-e-ct-e/",
+      "timestamp": 1793188802.0
     },
     {
       "source": "Conselho Federal de Contabilidade",
@@ -464,51 +395,43 @@
     },
     {
       "source": "Brasil de Fato",
-      "title": "‘Esse povo deu uma lição aos poderosos’, diz Lula ao comemorar 81 anos",
-      "summary": "Dezenas de apoiadores de Lula se reuniram no Palácio da Alvorada, em Brasília, na tarde desta terça-feira (27), para comemorar os 81 anos do presidente. Ao som de músicas e com direito a bolo, o grupo acompanhou emocionado o pronunciamento do petista, reeleito para um quarto…",
-      "date": "27/10/2026 22:00",
-      "link": "https://www.brasildefato.com.br/2026/10/27/esse-povo-deu-uma-licao-aos-poderosos-diz-lula-ao-comemorar-81-anos/",
-      "timestamp": 1793149259.0
+      "title": "Feriado prolongado no DF: veja o que abre e fecha a partir desta sexta-feira (30)",
+      "summary": "O Distrito Federal terá mudanças no funcionamento dos serviços públicos a partir desta sexta-feira (30), quando será celebrado o Dia do Servidor Público. A data, comemorada originalmente em 28 de outubro, foi transferida para sexta-feira por meio do Decreto nº 49.585,…",
+      "date": "28/10/2026 07:00",
+      "link": "https://www.brasildefato.com.br/2026/10/28/feriado-prolongado-no-df-veja-o-que-abre-e-fecha-a-partir-desta-sexta-feira-30/",
+      "timestamp": 1793181600.0
     },
     {
       "source": "Investing.com Brasil",
-      "title": "Evolution Metals anuncia chegada de equipamentos para expansão de ímãs na Coreia",
+      "title": "Por que as ações da OneSpaWorld estão disparando hoje?",
       "summary": "",
-      "date": "28/10/2026 12:46 (horário da fonte)",
-      "link": "https://br.investing.com/news/company-news/evolution-metals-anuncia-chegada-de-equipamentos-para-expansao-de-imas-na-coreia-93CH-2105871",
-      "timestamp": 1793191562.0
+      "date": "28/10/2026 13:54 (horário da fonte)",
+      "link": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-onespaworld-estao-disparando-hoje-93CH-2106034",
+      "timestamp": 1793195640.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Trump diz que aprovaria a concessão de visto nos EUA para Flávio Bolsonaro",
-      "summary": "O presidente dos EUA disse ainda que a eleição presidencial no Brasil foi 'muito estranha'",
-      "date": "28/10/2026 08:45",
-      "link": "https://jovempan.com.br/mundo/trump-diz-que-aprovaria-a-concessao-de-visto-nos-eua-para-flavio-bolsonaro/",
-      "timestamp": 1793187916.0
+      "title": "Senival Moura, vereador do PT, é preso em operação contra presença do PCC no transporte de SP",
+      "summary": "Parlamentar estava solto desde 5 de agosto, após decisão do Tribunal de Justiça de São Paulo. Ação conjunta do DEIC e do GAECO cumpriu cinco dos sete mandados de prisão preventiva expedidos pela Justiça",
+      "date": "28/10/2026 09:01",
+      "link": "https://jovempan.com.br/colunistas/david-de-tarso/senival-moura-vereador-do-pt-e-preso-em-operacao-contra-presenca-do-pcc-no-transporte-de-sp/",
+      "timestamp": 1793188860.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Banco Central diz que estabilidade financeira não está em risco",
-      "summary": "O Banco Central (BC) informou nesta terça-feira (27) que \"não vê risco relevante\" para a estabilidade financeira do país, apesar da piora dos indicadores de crédito das famílias. Segundo o Relatório de Estabilidade Financeira referente ao primeiro semestre de 2026, o sistema…",
-      "date": "27/10/2026 11:28",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco",
-      "timestamp": 1793111280.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Lula e eleitores idosos se emocionam em “festa de aniversário”",
-      "summary": "Aos 90 anos de idade, a aposentada potiguar Cícera Brasil apressou o passo nesta terça (27) até a entrada do Palácio da Alvorada, em Brasília. Apenas uma cerca a separava do bolo de aniversário. Agilizou o caminho, como no último domingo, em que votou especialmente emocionada…",
-      "date": "27/10/2026 21:41",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-e-eleitores-idosos-se-emocionam-em-festa-de-aniversario",
-      "timestamp": 1793148060.0
+      "source": "BBC News Brasil",
+      "title": "Quais seriam os caminhos possíveis para Flávio ficar legalmente nos EUA",
+      "summary": "Flávio poderia pedir asilo, mas visto por 'habilidades extraordinárias', como o de Eduardo, poderia ser caminho mais fácil, diz advogado especialista em imigração para os EUA.",
+      "date": "27/10/2026 19:49",
+      "link": "https://www.bbc.com/portuguese/articles/cmd6dz9ej226o?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793141389.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "Trabalho temporário: direitos e regras para contratação",
-      "summary": "Entenda os direitos no trabalho temporário, os prazos dos contratos e as regras para contratações sazonais na Black Friday e no fim do ano. Leia mais em https://www.contabeis.com.br/noticias/80396/trabalho-temporario-direitos-e-regras-para-contratacao/",
-      "date": "27/10/2026 19:00",
-      "link": "https://www.contabeis.com.br/noticias/80396/trabalho-temporario-direitos-e-regras-para-contratacao/",
-      "timestamp": 1793138401.0
+      "title": "CBS pode favorecer terceirização e agências em 2027",
+      "summary": "Com a CBS em vigor em 2027, créditos tributários podem mudar a escolha entre equipe própria, agências e fornecedores de serviços. Leia mais em https://www.contabeis.com.br/noticias/80355/cbs-pode-favorecer-terceirizacao-e-agencias-em-2027/",
+      "date": "27/10/2026 20:00",
+      "link": "https://www.contabeis.com.br/noticias/80355/cbs-pode-favorecer-terceirizacao-e-agencias-em-2027/",
+      "timestamp": 1793142002.0
     },
     {
       "source": "Conselho Federal de Contabilidade",
@@ -520,51 +443,43 @@
     },
     {
       "source": "Brasil de Fato",
-      "title": "Indígenas relatam violência após resultado das eleições",
-      "summary": "A deputada federal Célia Xakriabá (Psol) afirmou nesta terça-feira (27) que pediu investigações para apurar um suposto envenenamento da água no território dos Guarani Kaiowá, em Mato Grosso do Sul, após as eleições presidenciais. Segundo ela, lideranças locais relataram terem…",
-      "date": "27/10/2026 21:57",
-      "link": "https://www.brasildefato.com.br/2026/10/27/indigenas-relatam-violencia-apos-resultado-das-eleicoes/",
-      "timestamp": 1793149063.0
+      "title": "Saiba como votaram os moradores de favelas, terras indígenas e quilombos",
+      "summary": "A maioria dos moradores das favelas, quilombos e terras indígenas votou pela reeleição do presidente Luiz Inácio Lula da Silva (PT), segundo levantamento da Ipse Global, empresa especializada em pesquisas e análises de opinião. O melhor resultado do petista foi entre os…",
+      "date": "28/10/2026 06:00",
+      "link": "https://www.brasildefato.com.br/2026/10/28/saiba-como-votaram-os-moradores-de-favelas-terras-indigenas-e-quilombos/",
+      "timestamp": 1793178000.0
     },
     {
       "source": "Investing.com Brasil",
-      "title": "Nuburu conclui aquisição de 70% em empresa italiana de defesa",
+      "title": "Por que as ações da Axogen estão disparando hoje?",
       "summary": "",
-      "date": "28/10/2026 12:45 (horário da fonte)",
-      "link": "https://br.investing.com/news/company-news/nuburu-conclui-aquisicao-de-70-em-empresa-italiana-de-defesa-93CH-2105870",
-      "timestamp": 1793191558.0
+      "date": "28/10/2026 13:52 (horário da fonte)",
+      "link": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-axogen-estao-disparando-hoje-93CH-2106032",
+      "timestamp": 1793195539.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Argentina confirma fuga de Flávio e diz que senador embarcou para o Equador",
-      "summary": "Informação foi divulgada pelo Departamento de Migração do país argentino; candidato derrotado estaria indo para os Estados Unidos",
-      "date": "28/10/2026 08:36",
-      "link": "https://jovempan.com.br/politica/argentina-confirma-fuga-de-flavio-e-diz-que-senador-embarcou-para-o-equador/",
-      "timestamp": 1793187407.0
+      "title": "Falta de navios atrasa entrega de carros elétricos e expõe limites da expansão das montadoras chinesas",
+      "summary": "Geely e BYD enfrentam restrições no abastecimento do mercado brasileiro; caso mostra como a capacidade logística pode limitar as vendas mesmo quando há interesse dos consumidores",
+      "date": "28/10/2026 09:00",
+      "link": "https://jovempan.com.br/economia/negocios/falta-de-navios-atrasa-entrega-de-carros-eletricos-e-expoe-limites-da-expansao-das-montadoras-chinesas/",
+      "timestamp": 1793188800.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Mega-Sena não tem ganhador; prêmio acumula para R$ 305 milhões",
-      "summary": "Ninguém acertou acertou as seis dezenas do Concurso 3.075 da Mega-Sena, sorteado nesta segunda-feira (26). O prêmio acumulou novamente e está estimado em R$ 305 milhões para a nova rodada. Os números sorteados são: 07 - 10 - 14 - 27 - 36 - 55 A quina teve 182 apostas…",
-      "date": "26/10/2026 22:08",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-premio-acumula-para-r-305-milhoes",
-      "timestamp": 1793063280.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Coordenador de campanha se diz surpreso com fuga de Flávio",
-      "summary": "O senador Rogério Marinho (PL-RN), que coordenou a campanha eleitoral de Flávio Bolsonaro à presidência, afirmou à imprensa, nesta terça-feira (27), que não sabia da fuga do agora ex-candidato para os Estados Unidos (EUA). \"Estamos surpresos porque ontem nós conversamos sobre…",
-      "date": "27/10/2026 20:55",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/coordenador-de-campanha-se-diz-surpreso-com-fuga-de-flavio",
-      "timestamp": 1793145300.0
+      "source": "BBC News Brasil",
+      "title": "Observadores internacionais elogiam eleições brasileiras, e Carter Center pede respeito ao resultado",
+      "summary": "Missões internacionais elogiam a urna e a apuração; OEA pede regras para decisões monocráticas e para plataformas.",
+      "date": "27/10/2026 18:23",
+      "link": "https://www.bbc.com/portuguese/articles/cxzd68mp8nmno?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793136188.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "Simples híbrido: quando vale a pena escolher?",
-      "summary": "Entenda como créditos de IBS e CBS , custo líquido, perfil dos clientes e fluxo de caixa influenciam a escolha pelo Simples híbrido. Leia mais em https://www.contabeis.com.br/artigos/80374/simples-hibrido-quando-vale-a-pena-escolher/",
-      "date": "27/10/2026 18:30",
-      "link": "https://www.contabeis.com.br/artigos/80374/simples-hibrido-quando-vale-a-pena-escolher/",
-      "timestamp": 1793136601.0
+      "title": "PIX supera 1 bilhão de chaves cadastradas em 2026",
+      "summary": "PIX supera 1 bilhão de chaves em 2026, com novos recursos como pagamentos automáticos, aproximação e mecanismos de segurança contra fraudes. Leia mais em https://www.contabeis.com.br/noticias/80323/pix-supera-1-bilhao-de-chaves-cadastradas-em-2026/",
+      "date": "27/10/2026 19:45",
+      "link": "https://www.contabeis.com.br/noticias/80323/pix-supera-1-bilhao-de-chaves-cadastradas-em-2026/",
+      "timestamp": 1793141102.0
     },
     {
       "source": "Conselho Federal de Contabilidade",
@@ -576,51 +491,43 @@
     },
     {
       "source": "Brasil de Fato",
-      "title": "Professor de direito cubano vê desespero dos EUA em ameaças contra Cuba e convocação da CIA",
-      "summary": "Acadêmico aponta cálculo eleitoral de Trump e alerta que o bloqueio é a principal ameaça à ilha Fonte",
-      "date": "27/10/2026 21:46",
-      "link": "https://www.brasildefato.com.br/2026/10/27/professor-de-direito-cubano-ve-desespero-dos-eua-em-ameacas-contra-cuba-e-convocacao-da-cia/",
-      "timestamp": 1793148405.0
+      "title": "‘Esse povo deu uma lição aos poderosos’, diz Lula ao comemorar 81 anos",
+      "summary": "Dezenas de apoiadores de Lula se reuniram no Palácio da Alvorada, em Brasília, na tarde desta terça-feira (27), para comemorar os 81 anos do presidente. Ao som de músicas e com direito a bolo, o grupo acompanhou emocionado o pronunciamento do petista, reeleito para um quarto…",
+      "date": "27/10/2026 22:00",
+      "link": "https://www.brasildefato.com.br/2026/10/27/esse-povo-deu-uma-licao-aos-poderosos-diz-lula-ao-comemorar-81-anos/",
+      "timestamp": 1793149259.0
     },
     {
       "source": "Investing.com Brasil",
-      "title": "Subsidiária da Eco Depot conclui obras de infraestrutura de US$ 8,6 milhões no México",
+      "title": "Ação da Thermo Fisher Scientific atinge máxima histórica de US$ 705,81",
       "summary": "",
-      "date": "28/10/2026 12:45 (horário da fonte)",
-      "link": "https://br.investing.com/news/company-news/subsidiaria-da-eco-depot-conclui-obras-de-infraestrutura-de-us-86-milhoes-no-mexico-93CH-2105869",
-      "timestamp": 1793191555.0
+      "date": "28/10/2026 13:51 (horário da fonte)",
+      "link": "https://br.investing.com/news/company-news/acao-da-thermo-fisher-scientific-atinge-maxima-historica-de-us-70581-93CH-2106031",
+      "timestamp": 1793195476.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Sem Flávio, aliados temem perder força no Senado para barrar indicações de Lula ao STF",
-      "summary": "Se todas forem aprovadas, presidente poderá ter 7 dos 11 ministros da Corte",
-      "date": "28/10/2026 08:11",
-      "link": "https://jovempan.com.br/colunistas/beatriz-manfredini/sem-flavio-aliados-temem-perder-forca-no-senado-para-barrar-indicacoes-de-lula-ao-stf/",
-      "timestamp": 1793185907.0
+      "title": "Temporais avançam pelo Brasil e chuva deve se intensificar no Sul e Sudeste",
+      "summary": "Inmet prevê tempestades em diferentes regiões nesta quarta-feira (28); São Paulo e Curitiba seguem com temperaturas baixas",
+      "date": "28/10/2026 08:58",
+      "link": "https://jovempan.com.br/brasil/temporais-avancam-pelo-brasil-e-chuva-deve-se-intensificar-no-sul-e-sudeste/",
+      "timestamp": 1793188697.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
-      "summary": "O mercado financeiro brasileiro teve um dia de forte turbulência nesta segunda-feira (26), após a reeleição do presidente Luiz Inácio Lula da Silva no segundo turno das eleições presidenciais. O dólar fechou em alta de 8,21%, a R$ 5,403. O Ibovespa, principal índice da Bolsa…",
-      "date": "26/10/2026 19:07",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula",
-      "timestamp": 1793052420.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "MPSP passa a usar SmartSampa para combate ao crime organizado",
-      "summary": "O Ministério Público de São Paulo formalizou parceria com a Prefeitura de São Paulo para usar o sistema de monitoramento por câmeras em operação na cidade, o Smart Sampa, para investigações de combate ao crime organizado e em ações focadas no combate à violência contra as…",
-      "date": "27/10/2026 20:49",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/mpsp-passa-usar-smartsampa-para-combate-ao-crime-organizado",
-      "timestamp": 1793144940.0
+      "source": "BBC News Brasil",
+      "title": "Michelle e Carlos não se gostam, mas vão tentar manter bolsonarismo vivo, aponta Sérgio Abranches",
+      "summary": "Cientista político que criou termo 'presidencialismo de coalizão' acredita que necessidade de alianças entre partidos no Congresso tende a fazer 'direita democrática' retomar protagonismo perdido para 'direita radical'.",
+      "date": "27/10/2026 17:31",
+      "link": "https://www.bbc.com/portuguese/articles/cmzxl3evpl2ko?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793133113.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "Marketing digital e finanças: como medir resultados",
-      "summary": "Entenda como integrar marketing digital, finanças e contabilidade para avaliar custos, vendas e rentabilidade em pequenos negócios. Leia mais em https://www.contabeis.com.br/artigos/80375/marketing-digital-e-financas-como-medir-resultados/",
-      "date": "27/10/2026 18:00",
-      "link": "https://www.contabeis.com.br/artigos/80375/marketing-digital-e-financas-como-medir-resultados/",
-      "timestamp": 1793134802.0
+      "title": "Reforma Tributária: atraso amplia riscos às empresas",
+      "summary": "Atrasos na adaptação à Reforma Tributária podem afetar a emissão de documentos fiscais, o faturamento e a continuidade das operações. Leia mais em https://www.contabeis.com.br/noticias/80364/reforma-tributaria-atraso-amplia-riscos-as-empresas/",
+      "date": "27/10/2026 19:30",
+      "link": "https://www.contabeis.com.br/noticias/80364/reforma-tributaria-atraso-amplia-riscos-as-empresas/",
+      "timestamp": 1793140202.0
     },
     {
       "source": "Conselho Federal de Contabilidade",
@@ -632,6 +539,86 @@
     },
     {
       "source": "Brasil de Fato",
+      "title": "Indígenas relatam violência após resultado das eleições",
+      "summary": "A deputada federal Célia Xakriabá (Psol) afirmou nesta terça-feira (27) que pediu investigações para apurar um suposto envenenamento da água no território dos Guarani Kaiowá, em Mato Grosso do Sul, após as eleições presidenciais. Segundo ela, lideranças locais relataram terem…",
+      "date": "27/10/2026 21:57",
+      "link": "https://www.brasildefato.com.br/2026/10/27/indigenas-relatam-violencia-apos-resultado-das-eleicoes/",
+      "timestamp": 1793149063.0
+    },
+    {
+      "source": "Investing.com Brasil",
+      "title": "SEC busca mudanças nas regras de financiamento coletivo",
+      "summary": "",
+      "date": "27/10/2026 17:37 (horário da fonte)",
+      "link": "https://br.investing.com/news/stock-market-news/sec-busca-mudancas-nas-regras-de-financiamento-coletivo-2104627",
+      "timestamp": 1793122659.0
+    },
+    {
+      "source": "Jovem Pan",
+      "title": "Flávio planeja asilo político nos EUA e se encontrará com Eduardo nesta quarta-feira",
+      "summary": "Segundo apuração da Jovem Pan, o senador e candidato derrotado nas eleições presidenciais fugiu do Brasil para o país norte-americano",
+      "date": "27/10/2026 14:24",
+      "link": "https://jovempan.com.br/colunistas/beatriz-manfredini/flavio-bolsonaro-asilo-politico-encontro-eduardo-estados-unidos/",
+      "timestamp": 1793121883.0
+    },
+    {
+      "source": "BBC News Brasil",
+      "title": "TSE registrou 34 mil votos durante prorrogação ordenada por Zanin, menos de 0,03% dos votos totais",
+      "summary": "Vantagem de Lula sobre Flávio Bolsonaro foi cerca de 130 vezes o volume de votos registrados após as 17h, mostra levantamento da BBC News Brasil",
+      "date": "27/10/2026 15:46",
+      "link": "https://www.bbc.com/portuguese/articles/crp3g2ynkp1xo?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793126778.0
+    },
+    {
+      "source": "Portal Contábeis",
+      "title": "Perdão de dívidas pode beneficiar bares e restaurantes",
+      "summary": "Abrasel avalia proposta de perdão de dívidas para empresas de eventos, bares e restaurantes e defende que o programa inclua negócios do Simples Nacional . Leia mais em https://www.contabeis.com.br/noticias/80370/perdao-de-dividas-pode-beneficiar-bares-e-restaurantes/",
+      "date": "27/10/2026 19:15",
+      "link": "https://www.contabeis.com.br/noticias/80370/perdao-de-dividas-pode-beneficiar-bares-e-restaurantes/",
+      "timestamp": 1793139301.0
+    },
+    {
+      "source": "Brasil de Fato",
+      "title": "Professor de direito cubano vê desespero dos EUA em ameaças contra Cuba e convocação da CIA",
+      "summary": "Acadêmico aponta cálculo eleitoral de Trump e alerta que o bloqueio é a principal ameaça à ilha Fonte",
+      "date": "27/10/2026 21:46",
+      "link": "https://www.brasildefato.com.br/2026/10/27/professor-de-direito-cubano-ve-desespero-dos-eua-em-ameacas-contra-cuba-e-convocacao-da-cia/",
+      "timestamp": 1793148405.0
+    },
+    {
+      "source": "Investing.com Brasil",
+      "title": "Ação da Amalgamated Financial atinge máxima histórica de US$ 51,62",
+      "summary": "",
+      "date": "27/10/2026 17:37 (horário da fonte)",
+      "link": "https://br.investing.com/news/company-news/acao-da-amalgamated-financial-atinge-maxima-historica-de-us-5162-93CH-2104625",
+      "timestamp": 1793122644.0
+    },
+    {
+      "source": "Jovem Pan",
+      "title": "Flávio Bolsonaro fugiu do Brasil e está em avião a caminho dos EUA",
+      "summary": "Senador não entregou passaportes após determinação de Alexandre de Moraes; reportagem confirmou a saída do país",
+      "date": "27/10/2026 14:11",
+      "link": "https://jovempan.com.br/politica/flavio-bolsonaro-fugiu-do-brasil-e-esta-em-aviao-a-caminho-dos-eua/",
+      "timestamp": 1793121119.0
+    },
+    {
+      "source": "BBC News Brasil",
+      "title": "Pesquisas erraram resultado da eleição? O que elas podem não ter captado, segundo especialistas",
+      "summary": "Abstenção caiu mais do que o previsto, e especialistas dizem que pesquisas podem ter falhado em captar mobilização da reta final.",
+      "date": "27/10/2026 12:16",
+      "link": "https://www.bbc.com/portuguese/articles/cq073jg7v3xeo?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793114212.0
+    },
+    {
+      "source": "Portal Contábeis",
+      "title": "Trabalho temporário: direitos e regras para contratação",
+      "summary": "Entenda os direitos no trabalho temporário, os prazos dos contratos e as regras para contratações sazonais na Black Friday e no fim do ano. Leia mais em https://www.contabeis.com.br/noticias/80396/trabalho-temporario-direitos-e-regras-para-contratacao/",
+      "date": "27/10/2026 19:00",
+      "link": "https://www.contabeis.com.br/noticias/80396/trabalho-temporario-direitos-e-regras-para-contratacao/",
+      "timestamp": 1793138401.0
+    },
+    {
+      "source": "Brasil de Fato",
       "title": "Federação do PT formaliza apoio a Hugo Motta na Câmara e articula superbloco para isolar o PL",
       "summary": "A federação partidária formada por PT, PV e PCdoB anunciou oficialmente o apoio à reeleição do deputado Hugo Motta (Republicanos-PB) para o comando da Casa. O anúncio foi consolidado nesta terça-feira (27) após uma reunião da bancada e um breve encontro com o próprio…",
       "date": "27/10/2026 21:34",
@@ -640,43 +627,35 @@
     },
     {
       "source": "Investing.com Brasil",
-      "title": "Índia - Ações fecharam o pregão em queda e o Índice Nifty 50 recuou 0,22%",
+      "title": "Truist eleva preço-alvo da Zymeworks com avanços no pipeline",
       "summary": "",
-      "date": "28/10/2026 10:30 (horário da fonte)",
-      "link": "https://br.investing.com/news/stock-market-news/india--acoes-fecharam-o-pregao-em-queda-e-o-indice-nifty-50-recuou-022-2105472",
-      "timestamp": 1793183436.0
+      "date": "27/10/2026 17:36 (horário da fonte)",
+      "link": "https://br.investing.com/news/analyst-ratings/truist-eleva-precoalvo-da-zymeworks-com-avancos-no-pipeline-93CH-2104623",
+      "timestamp": 1793122585.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Colisão entre trens de alta velocidade deixa ao menos 30 mortos na Espanha",
-      "summary": "Acidente ocorreu na região de Castilla-La Mancha e provocou o descarrilamento de vagões; circulação ferroviária entre Madri e Andaluzia foi suspensa",
-      "date": "28/10/2026 07:49",
-      "link": "https://jovempan.com.br/mundo/colisao-entre-trens-de-alta-velocidade-deixa-varios-mortos-na-espanha/",
-      "timestamp": 1793184541.0
+      "title": "PF vai à sede do PL em Brasília após suspeita de fuga de Flávio Bolsonaro",
+      "summary": "Candidato derrotado teria fugido do Brasil",
+      "date": "27/10/2026 14:04",
+      "link": "https://jovempan.com.br/colunistas/beatriz-manfredini/pf-vai-a-sede-do-pl-em-brasilia-apos-suspeita-de-fuga-de-flavio-bolsonaro/",
+      "timestamp": 1793120654.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta",
-      "summary": "Os micro e pequenos empresários precisam ficar atentos. Acaba nesta sexta-feira (30) o prazo para a escolha do regime tributário que entrará em vigor em janeiro, com a reforma tributária. Os negócios que desejarem recolher o Imposto sobre Bens e Serviços (IBS) e a…",
-      "date": "26/10/2026 15:22",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-empresas-escolherem-modelo-do-simples-acaba-nesta-sexta",
-      "timestamp": 1793038920.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Governo alerta sobre notícias falsas relacionadas a programas sociais",
-      "summary": "O governo federal faz um alerta à população sobre informações falsas que circulam nas redes sociais relacionadas ao fim da escala 6x1 e a programas como o Bolsa Família e o Gás do Povo. Em nota divulgada nesta terça-feira (27), a Secretaria de Comunicação Social da…",
-      "date": "27/10/2026 20:34",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/governo-alerta-sobre-noticias-falsas-relacionadas-programas-sociais",
-      "timestamp": 1793144040.0
+      "source": "BBC News Brasil",
+      "title": "Como um movimento de estudantes nascido de uma tragédia acabou com 14 anos de domínio político na Sérvia",
+      "summary": "Candidatos de uma lista preparada por um movimento de estudantes venceram as eleições gerais no país após dois anos de protestos e campanhas.",
+      "date": "27/10/2026 11:46",
+      "link": "https://www.bbc.com/portuguese/articles/cqkg5lmdd33zo?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793112383.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "STJ mantém TJLP no limite de dedução dos JCP",
-      "summary": "STJ rejeita o uso da TLP e mantém a TJLP no cálculo do limite de dedução dos JCP nas bases do IRPJ e da CSLL . Leia mais em https://www.contabeis.com.br/noticias/80391/stj-mantem-tjlp-no-limite-de-deducao-dos-jcp/",
-      "date": "27/10/2026 17:30",
-      "link": "https://www.contabeis.com.br/noticias/80391/stj-mantem-tjlp-no-limite-de-deducao-dos-jcp/",
-      "timestamp": 1793133001.0
+      "title": "Simples híbrido: quando vale a pena escolher?",
+      "summary": "Entenda como créditos de IBS e CBS , custo líquido, perfil dos clientes e fluxo de caixa influenciam a escolha pelo Simples híbrido. Leia mais em https://www.contabeis.com.br/artigos/80374/simples-hibrido-quando-vale-a-pena-escolher/",
+      "date": "27/10/2026 18:30",
+      "link": "https://www.contabeis.com.br/artigos/80374/simples-hibrido-quando-vale-a-pena-escolher/",
+      "timestamp": 1793136601.0
     },
     {
       "source": "Brasil de Fato",
@@ -688,43 +667,35 @@
     },
     {
       "source": "Investing.com Brasil",
-      "title": "Por que as ações da Vertiv estão disparando hoje?",
+      "title": "Diretor da Peoples Bancorp compra ações no valor de US$ 11.596",
       "summary": "",
-      "date": "28/10/2026 10:29 (horário da fonte)",
-      "link": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-vertiv-estao-disparando-hoje-93CH-2105470",
-      "timestamp": 1793183389.0
+      "date": "27/10/2026 17:32 (horário da fonte)",
+      "link": "https://br.investing.com/news/insider-trading-news/diretor-da-peoples-bancorp-compra-acoes-no-valor-de-us-11596-93CH-2104617",
+      "timestamp": 1793122327.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Mega-Sena acumula novamente, e prêmio vai a R$ 320 milhões",
-      "summary": "Foram sorteados os números 06 - 30 - 32 - 38 - 49 - 57",
-      "date": "27/10/2026 23:18",
-      "link": "https://jovempan.com.br/brasil/mega-sena-acumula-novamente-e-premio-vai-a-r-320-milhoes/",
-      "timestamp": 1793153883.0
+      "title": "Suspeita de fuga de Flávio repercute na imprensa internacional em nova crise",
+      "summary": "Jornais da Argentina, Chile, Paraguai e Uruguai destacam investigação sobre possível saída do senador após derrota eleitoral; governo argentino nega entrada no país e aliados rejeitam versão de fuga",
+      "date": "27/10/2026 13:37",
+      "link": "https://jovempan.com.br/colunistas/eliseu-caetano/suspeita-de-fuga-de-flavio-repercute-na-imprensa-internacional-em-nova-crise/",
+      "timestamp": 1793119030.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
-      "summary": "As propagandas de empréstimos obedecerão a novas regras a partir do próximo ano, decidiu nesta sexta-feira (23) o Banco Central (BC). O órgão aprovou três resoluções para reforçar a proteção dos consumidores na contratação de crédito. As mudanças também criam um painel para…",
-      "date": "23/10/2026 19:31",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-reforca-regras-de-protecao-ao-consumidor-nas-ofertas-de-credito",
-      "timestamp": 1792794660.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "EBC tem quatro jornalistas entre os finalistas do prêmio +Admirados",
-      "summary": "A Agência Brasil e quatro jornalistas da Empresa Brasil de Comunicação ( EBC ) foram reconhecidas como as mais admiradas no país pelo Prêmio Einstein +Admirados da Imprensa de Saúde, Ciência e Bem-Estar de 2026. A lista dos profissionais e veículos selecionados foi divulgada…",
-      "date": "27/10/2026 20:24",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/ebc-tem-quatro-jornalistas-entre-os-finalistas-do-premio-admirados",
-      "timestamp": 1793143440.0
+      "source": "BBC News Brasil",
+      "title": "A eleição de 2026 em gráficos: de onde veio a virada de Lula",
+      "summary": "Veja em números como Lula conseguiu conquistar 10 milhões de votos entre o 1º e o 2º turno.",
+      "date": "27/10/2026 06:05",
+      "link": "https://www.bbc.com/portuguese/articles/cq4g10kx77dro?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793091906.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "IA no RH: como transformar o trabalho",
-      "summary": "IA no RH pode ir além da automação: entenda como tecnologia, cultura e desenvolvimento humano podem transformar o trabalho. Leia mais em https://www.contabeis.com.br/artigos/80395/ia-no-rh-como-transformar-o-trabalho/",
-      "date": "27/10/2026 17:00",
-      "link": "https://www.contabeis.com.br/artigos/80395/ia-no-rh-como-transformar-o-trabalho/",
-      "timestamp": 1793131201.0
+      "title": "Marketing digital e finanças: como medir resultados",
+      "summary": "Entenda como integrar marketing digital, finanças e contabilidade para avaliar custos, vendas e rentabilidade em pequenos negócios. Leia mais em https://www.contabeis.com.br/artigos/80375/marketing-digital-e-financas-como-medir-resultados/",
+      "date": "27/10/2026 18:00",
+      "link": "https://www.contabeis.com.br/artigos/80375/marketing-digital-e-financas-como-medir-resultados/",
+      "timestamp": 1793134802.0
     },
     {
       "source": "Brasil de Fato",
@@ -736,43 +707,35 @@
     },
     {
       "source": "Investing.com Brasil",
-      "title": "Susquehanna eleva preço-alvo da Royal Caribbean com demanda forte",
+      "title": "GM planeja oferecer versões híbridas de seus SUVs mais vendidos",
       "summary": "",
-      "date": "28/10/2026 10:28 (horário da fonte)",
-      "link": "https://br.investing.com/news/analyst-ratings/susquehanna-eleva-precoalvo-da-royal-caribbean-com-demanda-forte-93CH-2105469",
-      "timestamp": 1793183310.0
+      "date": "27/10/2026 17:31 (horário da fonte)",
+      "link": "https://br.investing.com/news/stock-market-news/gm-planeja-oferecer-versoes-hibridas-de-seus-suvs-mais-vendidos-2104616",
+      "timestamp": 1793122261.0
     },
     {
       "source": "Jovem Pan",
-      "title": "AtlasIntel atribui divergência em pesquisas à ‘abstenção atípica’ de eleitor de Lula no 1º turno",
-      "summary": "A maioria dos levantamentos mostrou o chefe do Executivo atrás de Flávio Bolsonaro na disputa à Presidência",
-      "date": "27/10/2026 23:05",
-      "link": "https://jovempan.com.br/politica/atlasintel-atribui-divergencia-em-pesquisas-a-abstencao-atipica-de-eleitor-de-lula-no-1o-turno/",
-      "timestamp": 1793153135.0
+      "title": "Aliados recebem informação de que Flávio Bolsonaro fugiu do Brasil",
+      "summary": "Segundo interlocutores, a informação inicial era de que o senador pretendia seguir para a Argentina e, depois, para os Estados Unidos",
+      "date": "27/10/2026 13:13",
+      "link": "https://jovempan.com.br/colunistas/beatriz-manfredini/aliados-recebem-informacao-de-que-flavio-bolsonaro-deixou-o-brasil/",
+      "timestamp": 1793117594.0
     },
     {
-      "source": "Agência Brasil • Economia",
-      "title": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
-      "summary": "O dólar fechou abaixo de R$ 5 nesta sexta-feira (23), e a bolsa brasileira subiu no último dia útil antes do segundo turno das eleições presidenciais. O petróleo avançou mais de 3% , atingindo o maior patamar desde abril, com o agravamento das tensões no Oriente Médio. No…",
-      "date": "23/10/2026 19:02",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-e-recua-158-na-semana",
-      "timestamp": 1792792920.0
-    },
-    {
-      "source": "Agência Brasil • Últimas",
-      "title": "Após vitória nas urnas, Lula vai retomar viagens internacionais",
-      "summary": "A partir de novembro, o presidente Luiz Inácio Lula da Silva deve retomar os compromissos internacionais, após fazer diversas viagens por todo o Brasil em campanha pela reeleição. Os Estados Unidos estão entre os destinos previstos. Lula pretende ir à Cúpula do G20, em 14 de…",
-      "date": "27/10/2026 20:09",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/apos-vitoria-nas-urnas-lula-vai-retomar-viagens-internacionais",
-      "timestamp": 1793142540.0
+      "source": "BBC News Brasil",
+      "title": "Ian Bremmer: 'Se Lula não agir rápido na economia, o mercado vai castigá-lo duramente'",
+      "summary": "Em entrevista à BBC News Brasil, fundador e presidente do grupo Eurasia analisa os desafios do novo mandato de Lula, critica a contestação do resultado por Flávio Bolsonaro e diz que vitória do petista não muda tendência de avanço da direita na América Latina.",
+      "date": "27/10/2026 05:50",
+      "link": "https://www.bbc.com/portuguese/articles/cvglw5x8760ro?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793091044.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "EmpregAI já contribuiu para 10,5 mil contratações",
-      "summary": "Ferramenta de inteligência artificial da Carteira de Trabalho Digital cruza perfis profissionais com vagas do Sine e envia alertas personalizados. Leia mais em https://www.contabeis.com.br/noticias/80399/empregai-ja-contribuiu-para-10-5-mil-contratacoes/",
-      "date": "27/10/2026 16:45",
-      "link": "https://www.contabeis.com.br/noticias/80399/empregai-ja-contribuiu-para-10-5-mil-contratacoes/",
-      "timestamp": 1793130301.0
+      "title": "STJ mantém TJLP no limite de dedução dos JCP",
+      "summary": "STJ rejeita o uso da TLP e mantém a TJLP no cálculo do limite de dedução dos JCP nas bases do IRPJ e da CSLL . Leia mais em https://www.contabeis.com.br/noticias/80391/stj-mantem-tjlp-no-limite-de-deducao-dos-jcp/",
+      "date": "27/10/2026 17:30",
+      "link": "https://www.contabeis.com.br/noticias/80391/stj-mantem-tjlp-no-limite-de-deducao-dos-jcp/",
+      "timestamp": 1793133001.0
     },
     {
       "source": "Brasil de Fato",
@@ -784,35 +747,35 @@
     },
     {
       "source": "Investing.com Brasil",
-      "title": "BTIG eleva preço-alvo da Roblox para US$ 42 com melhora nas tendências",
+      "title": "Ação da AtriCure atinge máxima de 52 semanas em US$ 61,71",
       "summary": "",
-      "date": "28/10/2026 10:28 (horário da fonte)",
-      "link": "https://br.investing.com/news/analyst-ratings/btig-eleva-precoalvo-da-roblox-para-us-42-com-melhora-nas-tendencias-93CH-2105468",
-      "timestamp": 1793183304.0
+      "date": "27/10/2026 17:30 (horário da fonte)",
+      "link": "https://br.investing.com/news/company-news/acao-da-atricure-atinge-maxima-de-52-semanas-em-us-6171-93CH-2104613",
+      "timestamp": 1793122257.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Flávio deixar o país é compreensível, diz Sergio Moro",
-      "summary": "Governador eleito do Paraná disse que o senador ser intimado a entregar seu passaporte é algo 'longe da normalidade institucional'",
-      "date": "27/10/2026 21:46",
-      "link": "https://jovempan.com.br/politica/flavio-deixar-o-pais-e-compreensivel-diz-sergio-moro/",
-      "timestamp": 1793148395.0
+      "title": "Mbappé e a China: humor em um país, ofensa em outro",
+      "summary": "Esse caso mostra bem o enorme cuidado com as palavras nos tempos atuais e a autocensura que isso gera",
+      "date": "27/10/2026 13:02",
+      "link": "https://jovempan.com.br/colunistas/wanderley-nogueira/mbappe-e-a-china-humor-em-um-pais-ofensa-em-outro/",
+      "timestamp": 1793116951.0
     },
     {
-      "source": "Agência Brasil • Últimas",
-      "title": "“Ato vergonhoso”, diz Lula sobre fuga de Flávio Bolsonaro",
-      "summary": "O presidente Luiz Inácio Lula da Silva disse, nesta terça-feira (27), que a fuga de Flávio Bolsonaro para os Estados Unidos é “um ato vergonhoso”. Para o presidente reeleito no último domingo (25), o seu adversário nas urnas está em débito com a Justiça. “O cidadão que sai…",
-      "date": "27/10/2026 19:50",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-vergonhoso-diz-lula-sobre-fuga-de-flavio-bolsonaro",
-      "timestamp": 1793141400.0
+      "source": "BBC News Brasil",
+      "title": "Flávio muda a rota e agora diz que vai pedir ao TSE cassação da chapa Lula-Alckmin",
+      "summary": "Especialistas dizem que o argumento da anulação do pleito se tornou frágil e, por isso, o senador poderia ter corrigido a rota.",
+      "date": "26/10/2026 19:54",
+      "link": "https://www.bbc.com/portuguese/articles/cr9dzne66j1go?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793055251.0
     },
     {
       "source": "Portal Contábeis",
-      "title": "Dia do Servidor Público 2026 tem ponto facultativo transferido para 30 de outubro",
-      "summary": "O Dia do Servidor Público não é feriado nacional. Veja quando será o ponto facultativo em 2026 e o que vale para trabalhadores da iniciativa privada. Leia mais em…",
-      "date": "27/10/2026 16:30",
-      "link": "https://www.contabeis.com.br/noticias/80404/dia-do-servidor-publico-2026-tem-ponto-facultativo-transferido-para-30-de-outubro/",
-      "timestamp": 1793129401.0
+      "title": "IA no RH: como transformar o trabalho",
+      "summary": "IA no RH pode ir além da automação: entenda como tecnologia, cultura e desenvolvimento humano podem transformar o trabalho. Leia mais em https://www.contabeis.com.br/artigos/80395/ia-no-rh-como-transformar-o-trabalho/",
+      "date": "27/10/2026 17:00",
+      "link": "https://www.contabeis.com.br/artigos/80395/ia-no-rh-como-transformar-o-trabalho/",
+      "timestamp": 1793131201.0
     },
     {
       "source": "Brasil de Fato",
@@ -824,19 +787,51 @@
     },
     {
       "source": "Investing.com Brasil",
-      "title": "Jefferies reduz preço-alvo da Exelon em meio à incerteza regulatória",
+      "title": "Truist reduz preço-alvo da Brown & Brown para US$ 85 com estimativas menores",
       "summary": "",
-      "date": "28/10/2026 10:27 (horário da fonte)",
-      "link": "https://br.investing.com/news/analyst-ratings/jefferies-reduz-precoalvo-da-exelon-em-meio-a-incerteza-regulatoria-93CH-2105467",
-      "timestamp": 1793183278.0
+      "date": "27/10/2026 17:30 (horário da fonte)",
+      "link": "https://br.investing.com/news/analyst-ratings/truist-reduz-precoalvo-da-brown--brown-para-us-85-com-estimativas-menores-93CH-2104612",
+      "timestamp": 1793122208.0
     },
     {
       "source": "Jovem Pan",
-      "title": "Fachin arquiva três ações ligadas ao inquérito das fake news",
-      "summary": "Casos envolvem o pastor Silas Malafaia, o ex-deputado Eduardo Bolsonaro e o escritor Guilherme Fiuza",
-      "date": "27/10/2026 21:30",
-      "link": "https://jovempan.com.br/politica/fachin-arquiva-tres-acoes-ligadas-ao-inquerito-das-fake-news/",
-      "timestamp": 1793147419.0
+      "title": "Presidente, e depois de 2030?",
+      "summary": "O mandato termina em quatro anos. As metas de saneamento vão até 2033. Moradia, mobilidade e proteção ambiental precisam de políticas de Estado, com recursos, prazos e continuidade",
+      "date": "27/10/2026 13:00",
+      "link": "https://jovempan.com.br/colunistas/helena-degreas/presidente-e-depois-de-2030/",
+      "timestamp": 1793116803.0
+    },
+    {
+      "source": "BBC News Brasil",
+      "title": "Quem estava ao lado de Lula durante discurso da vitória na eleição",
+      "summary": "Estava ao lado do presidente uma série de deputados e senadores não só do PT, mas também de outros partidos aliados contra Flávio Bolsonaro.",
+      "date": "26/10/2026 16:37",
+      "link": "https://www.bbc.com/portuguese/articles/c893zwq6947zo?at_medium=RSS&at_campaign=rss",
+      "timestamp": 1793043459.0
+    },
+    {
+      "source": "Portal Contábeis",
+      "title": "EmpregAI já contribuiu para 10,5 mil contratações",
+      "summary": "Ferramenta de inteligência artificial da Carteira de Trabalho Digital cruza perfis profissionais com vagas do Sine e envia alertas personalizados. Leia mais em https://www.contabeis.com.br/noticias/80399/empregai-ja-contribuiu-para-10-5-mil-contratacoes/",
+      "date": "27/10/2026 16:45",
+      "link": "https://www.contabeis.com.br/noticias/80399/empregai-ja-contribuiu-para-10-5-mil-contratacoes/",
+      "timestamp": 1793130301.0
+    },
+    {
+      "source": "Brasil de Fato",
+      "title": "Lula classifica fuga de Flávio Bolsonaro como ‘vergonhosa’ e diz que o opositor foi ‘lamber botas dos EUA’",
+      "summary": "O presidente reeleito, Luiz Inácio Lula da Silva, classificou como “vergonhosa” a fuga do senador e candidato derrotado das eleições, Flávio Bolsonaro (PL), nesta terça-feira (27), e disse que o bolsonarista vai “lamber bota dos Estados Unidos”. “Esse ato de sair do Brasil é…",
+      "date": "27/10/2026 19:58",
+      "link": "https://www.brasildefato.com.br/2026/10/27/lula-classifica-fuga-de-flavio-bolsonaro-como-vergonhosa-e-diz-que-o-opositor-foi-lamber-botas-dos-eua/",
+      "timestamp": 1793141933.0
+    },
+    {
+      "source": "Investing.com Brasil",
+      "title": "Arrive AI instala primeira unidade residencial segura para entregas",
+      "summary": "",
+      "date": "27/10/2026 17:29 (horário da fonte)",
+      "link": "https://br.investing.com/news/company-news/arrive-ai-instala-primeira-unidade-residencial-segura-para-entregas-93CH-2104611",
+      "timestamp": 1793122187.0
     }
   ]
 }
