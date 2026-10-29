@@ -22,7 +22,7 @@ class AgendaTests(unittest.TestCase):
     def test_all_internal_and_year_rollover(self):
         result=agenda.collect(dt.date(2026,12,29))
         internal=[x for x in result['items'] if x['kind']=='Escritório']
-        self.assertEqual(len(internal),12)
+        self.assertEqual(len(internal),18)
         self.assertTrue(any(x['date']=='2027-01-04' for x in internal))
     def test_specific_date_and_disabled_rule(self):
         config={'source':'Contabilizei','calendar_note':'teste','rules':[{'enabled':False}],

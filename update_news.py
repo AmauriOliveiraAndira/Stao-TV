@@ -17,6 +17,7 @@ FEEDS = [
     ('Brasil de Fato', 'https://www.brasildefato.com.br/feed/'),
     ('Investing.com Brasil', 'https://br.investing.com/rss/news.rss'),
     ('Jovem Pan', 'https://jovempan.com.br/feed'),
+    ('Gazeta do Povo', 'https://www.gazetadopovo.com.br/feed/rss/ultimas-noticias.xml'),
 ]
 OUT = Path(__file__).parent / 'news.json'
 MAX_AGE = 14 * 86400

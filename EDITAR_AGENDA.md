@@ -35,3 +35,5 @@ Para uma data avulsa, adicione em dated_items:
 As datas fiscais vêm somente das regras de pagamento selecionadas do artigo da Contabilizei, atualizado em 2024: DAS/PGDAS-D, DAS MEI, folha, PIS/Cofins e IRPJ/CSLL. Declarações com regras antigas no artigo, obrigações específicas e ICMS por enquadramento estadual foram excluídos. Não é uma agenda fiscal completa; ajuste a tabela às empresas e a eventuais prorrogações. Impostos usam o mesmo calendário configurado; feriados locais/religiosos devem ser cadastrados pelo responsável.
 
 O gerador prepara o mês atual e o próximo e o painel exibe os próximos vencimentos, incluindo rotinas do início do mês seguinte. Datas passadas somem da TV. A agenda alterna três registros por vez.
+
+A TV exibe somente a semana atual e a seguinte (segunda a domingo), incluindo os vencimentos já ocorridos na semana atual. A janela muda automaticamente a cada semana. Gazeta do Povo incluída nas fontes de notícias.

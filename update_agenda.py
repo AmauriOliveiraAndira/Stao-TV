@@ -62,9 +62,10 @@ def collect(today, config=None):
     year, month = today.year, today.month
     excluded = holidays(year, config) | holidays(year-1, config) | holidays(year+1, config)
     items = []
-    # Mês atual e próximo: permite mostrar as primeiras rotinas do mês seguinte.
-    for offset in (0, 1):
-        y, m = (year+1, 1) if month+offset == 13 else (year, month+offset)
+    # Mês anterior, atual e próximo: permite mostrar as primeiras rotinas do mês seguinte.
+    for offset in (-1, 0, 1):
+        absolute=year*12+month-1+offset
+        y, m=absolute//12,absolute%12+1
         for row in config['rules']:
             if not row.get('enabled', True) or m not in row.get('months', list(range(1,13))):
                 continue
@@ -89,7 +90,7 @@ def main():
     temporary = OUT.with_suffix('.tmp')
     temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n',encoding='utf-8')
     temporary.replace(OUT)
-    print(f"Agenda resumida: {len(data['items'])} registros, mês atual e próximo.")
+    print(f"Agenda resumida: {len(data['items'])} registros, mês anterior, atual e próximo.")
 
 if __name__ == '__main__':
     main()

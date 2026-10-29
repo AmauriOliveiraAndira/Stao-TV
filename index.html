@@ -41,10 +41,10 @@ body{display:flex;align-items:center;justify-content:center}
 </section>
 <div class="main">
 <section class="card"><div class="head"><h2>Economia e negócios</h2><span class="pill" id="newsstatus">Atualização automática quando disponível</span></div><div id="news"></div><div class="caption">Manchetes e resumos de feeds públicos, com fonte e data. Atualização automática via GitHub Actions; sem necessidade de clicar na TV.</div></section>
-<section class="card"><div class="head"><h2>Agenda de vencimentos • STAO</h2><span class="pill">Fiscal e escritório</span></div><div id="notices"></div></section>
+<section class="card"><div class="head"><h2>Agenda de vencimentos • STAO</h2><span class="pill">Esta semana + próxima</span></div><div id="notices"></div></section>
 </div>
 <div class="bottom"><div><b>STAO CONTABILIDADE</b> • Conte com orientação contábil e tributária para decidir melhor.</div><div id="updated">Sincronizando indicadores…</div></div>
-<div class="caption">Câmbio: AwesomeAPI, setas indicam a variação percentual informada pela fonte • Meteorologia: Open-Meteo • Notícias: BBC News Brasil, Portal Contábeis, CFC, Brasil de Fato, Investing.com e Jovem Pan (RSS) via GitHub Actions • Agenda: Contabilizei e rotinas internas STAO. As cotações podem sofrer atraso; não representam taxa contratual.</div>
+<div class="caption">Câmbio: AwesomeAPI, setas indicam a variação percentual informada pela fonte • Meteorologia: Open-Meteo • Notícias: BBC News Brasil, Portal Contábeis, CFC, Brasil de Fato, Investing.com, Jovem Pan e Gazeta do Povo (RSS) via GitHub Actions • Agenda: Contabilizei e rotinas internas STAO. As cotações podem sofrer atraso; não representam taxa contratual.</div>
 </div>
 <button id="gear" title="Configurações">⚙</button>
 <div id="settings" class="settings"><h2>Configurações da TV STAO</h2><p>Altere os dados e clique em salvar. Eles ficarão gravados neste navegador da TV.</p><label>Cidade da previsão do tempo (município)</label><input id="cityinput" placeholder="Andirá"><label>Estado (UF)</label><input id="stateinput" placeholder="PR" maxlength="2"><p>Agenda gerada a partir de agenda_regras.json. Edite as rotinas, datas e feriados locais nesse arquivo.</p><button id="save">Salvar e atualizar</button> <button class="close" id="close">Fechar</button><p style="font-size:12px">Obs.: para abrir o painel permanentemente, publique este arquivo em uma hospedagem estática gratuita, como GitHub Pages.</p></div>
@@ -65,9 +65,17 @@ const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'
 const fmtDay=d=>d.toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit'});
 function clock(){let d=new Date();$('clock').textContent=d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit',timeZone:'America/Sao_Paulo'});$('date').textContent=d.toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo',weekday:'long',day:'2-digit',month:'long',year:'numeric'}).toUpperCase()}clock();setInterval(clock,15000);
 let agendaItems=[],agendaPage=0;
+function agendaWindow(today){
+ const date=new Date(today+'T12:00:00Z');
+ const offset=(date.getUTCDay()+6)%7;
+ const start=new Date(date);start.setUTCDate(start.getUTCDate()-offset);
+ const end=new Date(start);end.setUTCDate(end.getUTCDate()+13);
+ return {start:start.toISOString().slice(0,10),end:end.toISOString().slice(0,10)};
+}
 function agenda(){
  const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
- const items=agendaItems.filter(x=>/^\d{4}-\d{2}-\d{2}$/.test(x.date)&&x.date>=today).sort((a,b)=>a.date.localeCompare(b.date));
+ const range=agendaWindow(today);
+ const items=agendaItems.filter(x=>/^\d{4}-\d{2}-\d{2}$/.test(x.date)&&x.date>=range.start&&x.date<=range.end).sort((a,b)=>a.date.localeCompare(b.date));
  const pages=Math.max(1,Math.ceil(items.length/3));agendaPage%=pages;
  $('notices').innerHTML=items.slice(agendaPage*3,agendaPage*3+3).map(x=>'<div class="deadline"><div class="duedate">'+safe(x.date.slice(8)+'/'+x.date.slice(5,7))+'</div><div class="duetext">'+safe(x.name)+'<small>'+safe(x.kind)+' • '+safe(x.detail)+'</small></div></div>').join('');
  $('notices').parentElement.hidden=items.length===0;

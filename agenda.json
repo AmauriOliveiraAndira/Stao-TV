@@ -6,6 +6,83 @@
   "config_hash": "50de9a3b179435818729eac2e2e791ad63990bacc978d6e30b13609890c6ac26",
   "items": [
     {
+      "date": "2026-09-01",
+      "name": "Iniciar fechamento da folha de pagamento",
+      "kind": "Escritório",
+      "detail": "1º dia útil",
+      "source": "Rotina interna STAO"
+    },
+    {
+      "date": "2026-09-01",
+      "name": "Iniciar fechamento dos motoristas TransPaludetto",
+      "kind": "Escritório",
+      "detail": "1º dia útil",
+      "source": "Rotina interna STAO"
+    },
+    {
+      "date": "2026-09-01",
+      "name": "Solicitar lançamentos às empresas",
+      "kind": "Escritório",
+      "detail": "1º dia útil • horas extras, comissões e relógio de ponto",
+      "source": "Rotina interna STAO"
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Enviar folha de pagamento às empresas",
+      "kind": "Escritório",
+      "detail": "5º dia útil • último dia para envio",
+      "source": "Rotina interna STAO"
+    },
+    {
+      "date": "2026-09-17",
+      "name": "Enviar guia do MEI",
+      "kind": "Escritório",
+      "detail": "12º dia útil • prazo interno para envio",
+      "source": "Rotina interna STAO"
+    },
+    {
+      "date": "2026-09-18",
+      "name": "INSS / IRRF da folha / FGTS",
+      "kind": "Fiscal",
+      "detail": "Empresas com empregados • conforme obrigatoriedade",
+      "source": "https://www.contabilizei.com.br/contabilidade-online/agenda-tributaria/"
+    },
+    {
+      "date": "2026-09-20",
+      "name": "Enviar parcelamentos",
+      "kind": "Escritório",
+      "detail": "Dia 20 • prazo interno para envio",
+      "source": "Rotina interna STAO"
+    },
+    {
+      "date": "2026-09-21",
+      "name": "DAS / PGDAS-D • Simples Nacional",
+      "kind": "Fiscal",
+      "detail": "Comércio e serviços • competência anterior",
+      "source": "https://www.contabilizei.com.br/contabilidade-online/agenda-tributaria/"
+    },
+    {
+      "date": "2026-09-21",
+      "name": "DAS MEI • pagamento",
+      "kind": "Fiscal",
+      "detail": "MEI • competência anterior",
+      "source": "https://www.contabilizei.com.br/contabilidade-online/agenda-tributaria/"
+    },
+    {
+      "date": "2026-09-25",
+      "name": "PIS / Cofins",
+      "kind": "Fiscal",
+      "detail": "Regime normal • comércio e serviços • conforme incidência",
+      "source": "https://www.contabilizei.com.br/contabilidade-online/agenda-tributaria/"
+    },
+    {
+      "date": "2026-09-30",
+      "name": "IRPJ / CSLL • estimativa mensal",
+      "kind": "Fiscal",
+      "detail": "Lucro Real • quando adotada a estimativa mensal",
+      "source": "https://www.contabilizei.com.br/contabilidade-online/agenda-tributaria/"
+    },
+    {
       "date": "2026-10-01",
       "name": "Iniciar fechamento da folha de pagamento",
       "kind": "Escritório",

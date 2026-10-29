@@ -14,3 +14,5 @@ A agenda agora é resumida e gerada a partir de agenda_regras.json. Envie esse a
 Tema escuro, logo original em assets/logo-stao.png, fontes ampliadas e ajuste proporcional à tela. Clima e agenda têm as bordas alinhadas. Setas do câmbio indicam o sinal da variação percentual informada pela AwesomeAPI.
 
 A publicação usa os JSONs gerados diretamente, sem git commit/push durante a execução. A última coleta é recuperada do site antes de atualizar, preservando a acumulação de notícias e a conferência diária da agenda.
+
+A TV exibe somente a semana atual e a seguinte (segunda a domingo), incluindo os vencimentos já ocorridos na semana atual. A janela muda automaticamente a cada semana. Gazeta do Povo incluída nas fontes de notícias.
