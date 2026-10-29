@@ -9,6 +9,8 @@ Notícias: até 100 manchetes únicas dos últimos 14 dias, de BBC News Brasil, 
 
 O GitHub consulta os feeds a cada 10 minutos (minutos 7, 17, 27, 37, 47 e 57). O agendamento pode atrasar no GitHub. A TV verifica o JSON a cada minuto e mostra cada notícia por 20 segundos. Consultas não reiniciam a posição do rodízio. Os avisos de rotação e tempo de troca estão ocultos; fonte, data e contador permanecem.
 
-A coleta federal da agenda continua diária e exibe três obrigações por vez, com troca a cada 16 segundos. Prazos estaduais precisam de validação específica em agenda_estadual.json. Falhas preservam a última coleta; datas de meses passados são excluídas da tela.
+A agenda agora é resumida e gerada a partir de agenda_regras.json. Envie esse arquivo e consulte EDITAR_AGENDA.md para editar rotinas, datas e feriados locais. A coleta detalhada da Receita Federal foi substituída pela tabela de pagamentos selecionados da Contabilizei e rotinas internas.
 
 Tema escuro, logo original em assets/logo-stao.png, fontes ampliadas e ajuste proporcional à tela. Clima e agenda têm as bordas alinhadas. Setas do câmbio indicam o sinal da variação percentual informada pela AwesomeAPI.
+
+A publicação usa os JSONs gerados diretamente, sem git commit/push durante a execução. A última coleta é recuperada do site antes de atualizar, preservando a acumulação de notícias e a conferência diária da agenda.

@@ -1,0 +1,110 @@
+{
+  "source": "https://www.contabilizei.com.br/contabilidade-online/agenda-tributaria/",
+  "calendar_note": "Dias úteis internos: segunda a sexta, excluindo feriados do calendário nacional. Acrescente feriados locais em extra_holidays. Não é contagem de prazo legal trabalhista.",
+  "extra_holidays": [],
+  "rules": [
+    {
+      "name": "Solicitar lançamentos às empresas",
+      "kind": "Escritório",
+      "rule": "business",
+      "day": 1,
+      "adjust": "none",
+      "detail": "1º dia útil • horas extras, comissões e relógio de ponto"
+    },
+    {
+      "name": "Iniciar fechamento dos motoristas TransPaludetto",
+      "kind": "Escritório",
+      "rule": "business",
+      "day": 1,
+      "adjust": "none",
+      "detail": "1º dia útil"
+    },
+    {
+      "name": "Iniciar fechamento da folha de pagamento",
+      "kind": "Escritório",
+      "rule": "business",
+      "day": 1,
+      "adjust": "none",
+      "detail": "1º dia útil"
+    },
+    {
+      "name": "Enviar folha de pagamento às empresas",
+      "kind": "Escritório",
+      "rule": "business",
+      "day": 5,
+      "adjust": "none",
+      "detail": "5º dia útil • último dia para envio"
+    },
+    {
+      "name": "Enviar guia do MEI",
+      "kind": "Escritório",
+      "rule": "business",
+      "day": 12,
+      "adjust": "none",
+      "detail": "12º dia útil • prazo interno para envio"
+    },
+    {
+      "name": "Enviar parcelamentos",
+      "kind": "Escritório",
+      "rule": "calendar",
+      "day": 20,
+      "adjust": "none",
+      "detail": "Dia 20 • prazo interno para envio"
+    },
+    {
+      "name": "DAS / PGDAS-D • Simples Nacional",
+      "kind": "Fiscal",
+      "rule": "calendar",
+      "day": 20,
+      "adjust": "after",
+      "detail": "Comércio e serviços • competência anterior"
+    },
+    {
+      "name": "DAS MEI • pagamento",
+      "kind": "Fiscal",
+      "rule": "calendar",
+      "day": 20,
+      "adjust": "after",
+      "detail": "MEI • competência anterior"
+    },
+    {
+      "name": "INSS / IRRF da folha / FGTS",
+      "kind": "Fiscal",
+      "rule": "calendar",
+      "day": 20,
+      "adjust": "before",
+      "detail": "Empresas com empregados • conforme obrigatoriedade"
+    },
+    {
+      "name": "PIS / Cofins",
+      "kind": "Fiscal",
+      "rule": "calendar",
+      "day": 25,
+      "adjust": "before",
+      "detail": "Regime normal • comércio e serviços • conforme incidência"
+    },
+    {
+      "name": "IRPJ / CSLL • estimativa mensal",
+      "kind": "Fiscal",
+      "rule": "last_business",
+      "day": 0,
+      "adjust": "none",
+      "detail": "Lucro Real • quando adotada a estimativa mensal"
+    },
+    {
+      "name": "IRPJ / CSLL • trimestral",
+      "kind": "Fiscal",
+      "rule": "last_business",
+      "day": 0,
+      "adjust": "none",
+      "detail": "1ª quota ou quota única • trimestre anterior",
+      "months": [
+        1,
+        4,
+        7,
+        10
+      ]
+    }
+  ],
+  "dated_items": []
+}

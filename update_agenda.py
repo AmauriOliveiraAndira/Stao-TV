@@ -1,118 +1,95 @@
 #!/usr/bin/env python3
-"""Coleta vencimentos publicados pela RFB; não calcula prazos por recorrência."""
+"""Agenda resumida e editável de pagamentos e rotinas internas STAO."""
+import calendar
 import datetime as dt
+import hashlib
 import json
-import re
-import unicodedata
-import urllib.request
-from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'agenda.json'
-REFERENCE = 'https://www.contabilizei.com.br/contabilidade-online/agenda-tributaria/'
-MONTHS = ('Janeiro Fevereiro Março Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro').split()
+CONFIG = ROOT / 'agenda_regras.json'
+# Feriados nacionais de data fixa; feriados locais/religiosos e dias de fechamento
+# do escritório podem ser acrescentados pelo responsável em extra_holidays.
+NATIONAL_DAYS = ('01-01','04-21','05-01','09-07','10-12','11-02','11-15','11-20','12-25')
 
-class Page(HTMLParser):
-    def __init__(self, source):
-        super().__init__(convert_charrefs=True)
-        self.links, self.rows, self.row, self.cell = [], [], None, None
-        self.feed(source)
-    def handle_starttag(self, tag, attrs):
-        if tag == 'a':
-            self.links.append(dict(attrs).get('href', ''))
-        elif tag == 'tr':
-            self.row = []
-        elif tag in ('td', 'th') and self.row is not None:
-            self.cell = []
-    def handle_data(self, data):
-        if self.cell is not None:
-            self.cell.append(data)
-    def handle_endtag(self, tag):
-        if tag in ('td', 'th') and self.cell is not None:
-            self.row.append(' '.join(' '.join(self.cell).split()))
-            self.cell = None
-        elif tag == 'tr' and self.row is not None:
-            self.rows.append(self.row)
-            self.row = None
+def holidays(year, config):
+    result = {f'{year}-{day}' for day in NATIONAL_DAYS}
+    for value in config.get('extra_holidays', []):
+        date = dt.date.fromisoformat(value)
+        if date.year == year:
+            result.add(date.isoformat())
+    return result
 
-def fetch(url):
-    req = urllib.request.Request(url, headers={'User-Agent': 'STAO-TV/1.0', 'Accept': 'text/html'})
-    with urllib.request.urlopen(req, timeout=35) as response:
-        return response.read(4_000_000).decode('utf-8')
+def is_business(date, excluded):
+    return date.weekday() < 5 and date.isoformat() not in excluded
 
-def normal(text):
-    return ''.join(c for c in unicodedata.normalize('NFD', text) if not unicodedata.combining(c)).lower()
+def business_day(year, month, number, excluded):
+    if not 1 <= number <= 23:
+        raise ValueError('Número de dia útil inválido')
+    count = 0
+    for day in range(1, calendar.monthrange(year, month)[1]+1):
+        date = dt.date(year, month, day)
+        if is_business(date, excluded):
+            count += 1
+            if count == number:
+                return date
+    raise ValueError('O mês não possui esse número de dias úteis')
 
-# Escopo de rotina contábil: não inclui todos os códigos de receita da RFB.
-TAXES = {'irpj', 'csll', 'pis/pasep', 'cofins', 'ipi', 'simples nacional', 'inss', 'irrf'}
-DECLARATIONS = ('dctfweb', 'efd', 'esocial', 'pgdas', 'defis', 'dasn', 'ecd', 'ecf', 'dme', 'doi', 'decripto')
+def due_date(year, month, rule, excluded):
+    mode = rule['rule']
+    if mode == 'business':
+        return business_day(year, month, int(rule['day']), excluded)
+    if mode == 'last_business':
+        date = dt.date(year, month, calendar.monthrange(year, month)[1])
+        adjust = 'before'
+    elif mode == 'calendar':
+        date = dt.date(year, month, int(rule['day']))
+        adjust = rule.get('adjust', 'none')
+    else:
+        raise ValueError('Regra desconhecida: ' + mode)
+    if adjust not in ('none','before','after'):
+        raise ValueError('Ajuste de data desconhecido')
+    if adjust != 'none':
+        step = dt.timedelta(days=1 if adjust == 'after' else -1)
+        while not is_business(date, excluded):
+            date += step
+    return date
 
-def parse_day(source, date, url):
-    page = Page(source)
-    if not page.rows:
-        raise ValueError('Tabela ausente: ' + url)
+def collect(today, config=None):
+    config = config if config is not None else json.loads(CONFIG.read_text(encoding='utf-8'))
+    year, month = today.year, today.month
+    excluded = holidays(year, config) | holidays(year-1, config) | holidays(year+1, config)
     items = []
-    for row in page.rows:
-        if len(row) != 4:
-            continue
-        code, group, description, period = row
-        if normal(group) in TAXES:
-            items.append({'date': date, 'name': group + ' • ' + description,
-                          'detail': 'Apuração: ' + period + ' • código ' + code,
-                          'kind': 'Federal • conforme enquadramento', 'source': url})
-        elif any(normal(group).startswith(prefix) for prefix in DECLARATIONS):
-            items.append({'date': date, 'name': group, 'detail': 'Referência: ' + description,
-                          'kind': 'Federal • contribuintes obrigados', 'source': url})
-    return items
-
-def collect(today, reader=fetch):
-    month = f'{today:%Y-%m}'
-    index = f'https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/{today.year}/{MONTHS[today.month-1]}'
-    page = Page(reader(index))
-    days = {}
-    for href in page.links:
-        url = urljoin(index + '/', href).split('#')[0].split('?')[0].rstrip('/')
-        match = re.search(r'/dia-(\d{2})-(\d{2})-(\d{4})$', url)
-        if not match or urlparse(url).netloc != 'www.gov.br':
-            continue
-        day, mon, year = map(int, match.groups())
-        date = dt.date(year, mon, day)
-        if date.strftime('%Y-%m') == month:
-            days[url] = date.isoformat()
-    if not days:
-        raise ValueError('Calendário do mês ainda indisponível ou formato alterado')
-    # Qualquer falha aborta o arquivo todo, preservando a última coleta completa.
-    items = []
-    for url, date in sorted(days.items()):
-        items.extend(parse_day(reader(url), date, url))
-    if not items:
-        raise ValueError('Nenhuma obrigação reconhecida; conferir o formato da fonte')
-    state = ROOT / 'agenda_estadual.json'
-    if state.exists():
-        # Apenas datas estaduais explicitamente validadas; nunca repetir no mês seguinte.
-        for item in json.loads(state.read_text(encoding='utf-8')).get('items', []):
-            if re.fullmatch(r'\d{4}-\d{2}-\d{2}', item.get('date', '')) and item['date'].startswith(month):
-                items.append(item)
-    unique = {(x['date'], x['name'], x['detail']): x for x in items}
-    return {'month': month, 'checked_on': today.isoformat(),
-            'reference': REFERENCE, 'source': index,
-            'items': sorted(unique.values(), key=lambda x: (x['date'], x['name'], x['detail']))}
+    # Mês atual e próximo: permite mostrar as primeiras rotinas do mês seguinte.
+    for offset in (0, 1):
+        y, m = (year+1, 1) if month+offset == 13 else (year, month+offset)
+        for row in config['rules']:
+            if not row.get('enabled', True) or m not in row.get('months', list(range(1,13))):
+                continue
+            date = due_date(y, m, row, excluded)
+            internal = row['kind'] == 'Escritório'
+            items.append({'date': date.isoformat(), 'name': row['name'],
+                          'kind': row['kind'], 'detail': row.get('detail',''),
+                          'source': 'Rotina interna STAO' if internal else config['source']})
+    for row in config.get('dated_items', []):
+        dt.date.fromisoformat(row['date'])
+        items.append({'date':row['date'],'name':row['name'],
+                      'kind':row.get('kind','Escritório'),'detail':row.get('detail',''),
+                      'source':row.get('source','Tabela STAO')})
+    return {'month':f'{year:04}-{month:02}', 'checked_on':today.isoformat(),
+            'source':config['source'], 'calendar_note':config['calendar_note'],
+            'config_hash':hashlib.sha256(json.dumps(config,sort_keys=True).encode()).hexdigest(),
+            'items':sorted(items,key=lambda x:(x['date'],x['kind']!='Escritório',x['name']))}
 
 def main():
     today = dt.datetime.now(ZoneInfo('America/Sao_Paulo')).date()
-    if OUT.exists():
-        previous = json.loads(OUT.read_text(encoding='utf-8'))
-        if previous.get('checked_on') == today.isoformat():
-            print('Agenda já consultada hoje.')
-            return
     data = collect(today)
-    temp = OUT.with_suffix('.tmp')
-    temp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    temp.replace(OUT)
-    print(f"Agenda {data['month']}: {len(data['items'])} vencimentos publicados.")
+    temporary = OUT.with_suffix('.tmp')
+    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n',encoding='utf-8')
+    temporary.replace(OUT)
+    print(f"Agenda resumida: {len(data['items'])} registros, mês atual e próximo.")
 
 if __name__ == '__main__':
     main()

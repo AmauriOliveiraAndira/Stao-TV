@@ -1,44 +1,32 @@
 import datetime as dt
 import unittest
-from unittest.mock import patch
 import update_agenda as agenda
 
 class AgendaTests(unittest.TestCase):
-    def test_payment_and_declaration_only(self):
-        source='''<table><tr><td>2089</td><td>IRPJ</td><td>Lucro presumido</td><td>3º trimestre</td></tr>
-        <tr><td>DARF</td><td>DCTFWeb Geral</td><td>Lei</td></tr>
-        <tr><td>PJ/PF</td><td>DCTFWeb – Declaração</td><td>Setembro/2026</td><td>IN</td></tr>
-        <tr><td>999</td><td>Parcelamento</td><td>Especial</td><td>Mês atual</td></tr></table>'''
-        items=agenda.parse_day(source,'2026-10-30','https://www.gov.br/exemplo')
-        self.assertEqual(len(items),2)
-        self.assertTrue(all(x['date']=='2026-10-30' for x in items))
-        self.assertIn('Setembro/2026',items[1]['detail'])
-
-    def test_missing_calendar_fails(self):
-        with self.assertRaises(ValueError):
-            agenda.collect(dt.date(2026,11,1),lambda url:'<p>Indisponível</p>')
-
-    def test_no_foreign_or_wrong_month_links(self):
-        source='''<a href="dia-30-10-2026">Data</a><a href="dia-01-11-2026">Outro mês</a>
-        <a href="https://example.com/dia-30-10-2026">Externo</a>'''
-        calls=[]
-        def reader(url):
-            calls.append(url)
-            if '/dia-' not in url:return source
-            return '<table><tr><td>PJ</td><td>DCTFWeb</td><td>09/2026</td><td>IN</td></tr></table>'
-        result=agenda.collect(dt.date(2026,10,27),reader)
-        self.assertEqual(len(calls),2)
-        self.assertEqual(sum(x['kind'].startswith('Federal') for x in result['items']),1)
-
-    def test_source_failure_keeps_previous_file(self):
-        import tempfile
-        from pathlib import Path
-        with tempfile.TemporaryDirectory() as directory:
-            output=Path(directory)/'agenda.json'
-            previous='{"checked_on": null,"items":[]}'
-            output.write_text(previous)
-            with patch.object(agenda,'OUT',output),patch.object(agenda,'collect',side_effect=ValueError('Fonte mudou')):
-                with self.assertRaises(ValueError):agenda.main()
-            self.assertEqual(output.read_text(),previous)
+    def test_first_business_after_holiday(self):
+        excluded=agenda.holidays(2026,{})
+        self.assertEqual(agenda.business_day(2026,11,1,excluded),dt.date(2026,11,3))
+        self.assertEqual(agenda.business_day(2026,11,5,excluded),dt.date(2026,11,9))
+        self.assertEqual(agenda.business_day(2026,11,12,excluded),dt.date(2026,11,18))
+    def test_local_holiday(self):
+        excluded=agenda.holidays(2026,{'extra_holidays':['2026-11-03']})
+        self.assertEqual(agenda.business_day(2026,11,1,excluded),dt.date(2026,11,4))
+    def test_payment_adjustment(self):
+        excluded=agenda.holidays(2026,{})
+        rule={'rule':'calendar','day':20,'adjust':'after'}
+        self.assertEqual(agenda.due_date(2026,11,rule,excluded),dt.date(2026,11,23))
+        rule['adjust']='before'
+        self.assertEqual(agenda.due_date(2026,11,rule,excluded),dt.date(2026,11,19))
+        rule['adjust']='none'
+        self.assertEqual(agenda.due_date(2026,11,rule,excluded),dt.date(2026,11,20))
+    def test_all_internal_and_year_rollover(self):
+        result=agenda.collect(dt.date(2026,12,29))
+        internal=[x for x in result['items'] if x['kind']=='Escritório']
+        self.assertEqual(len(internal),12)
+        self.assertTrue(any(x['date']=='2027-01-04' for x in internal))
+    def test_specific_date_and_disabled_rule(self):
+        config={'source':'Contabilizei','calendar_note':'teste','rules':[{'enabled':False}],
+                'dated_items':[{'date':'2026-11-10','name':'Reunião'}]}
+        self.assertEqual(len(agenda.collect(dt.date(2026,11,1),config)['items']),1)
 
 if __name__=='__main__':unittest.main()
